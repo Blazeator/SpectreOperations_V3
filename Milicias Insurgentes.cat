@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="7191-17f5-7ac1-4093" name="Milicias Insurgentes" gameSystemId="sys-c514-e280-17d7-17af" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="unit" import="true" name="Unidad de Mando" hidden="false" id="02bf-6983-c65d-00df" subType="unit-group">
+      <costs>
+        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="30"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="4067-dc61-e5af-04d8" id="2613-3f01-4c5c-b960" primary="true" name="Unidades"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ca52-7a67-5375-e678" includeChildSelections="false"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Calidad" id="2628-2fc2-d114-bffe" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Militar" hidden="false" id="96da-3260-f51b-7c1b" sortIndex="5">
+              <infoLinks>
+                <infoLink name="Militares" id="7d94-f5cb-c233-c793" hidden="false" type="profile" targetId="9139-4807-47ea-d8b2"/>
+              </infoLinks>
+              <costs>
+                <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="10"/>
+              </costs>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="10" field="e097-af1e-bf07-f031">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="parent" shared="true" roundUp="false" childId="b6a8-4bc1-bfa4-9a39" childName="Guardaespaldas"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Veterano" hidden="false" id="98a8-2452-cbac-d525" sortIndex="6">
+              <infoLinks>
+                <infoLink name="Veterano" id="d848-408f-0953-934d" hidden="false" type="profile" targetId="c8a0-8900-9535-b743"/>
+              </infoLinks>
+              <costs>
+                <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="20"/>
+              </costs>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" value="20" field="e097-af1e-bf07-f031">
+                      <repeats>
+                        <repeat value="1" repeats="1" field="selections" scope="parent" childId="b6a8-4bc1-bfa4-9a39" shared="true" roundUp="false" childName="Guardaespaldas"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Civil" hidden="false" id="d836-3082-cabd-046f" sortIndex="1">
+              <infoLinks>
+                <infoLink name="Civil" id="54b8-d32f-cc44-0aa5" hidden="false" type="profile" targetId="d2df-5d35-cf20-9324"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Criminal" hidden="false" id="5809-ca59-2a26-53d6" sortIndex="2">
+              <infoLinks>
+                <infoLink name="Criminal" id="80fa-faad-857d-755c" hidden="false" type="profile" targetId="3c83-9cde-8e46-659d"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Milicia" hidden="false" id="9f46-b2f9-0ee5-ff36" sortIndex="4">
+              <infoLinks>
+                <infoLink name="Milicia" id="a071-a729-1741-9ced" hidden="false" type="profile" targetId="309c-9800-d8c1-1acd"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Recluta" hidden="false" id="dd8b-7ac6-60a8-cb0a" sortIndex="3">
+              <infoLinks>
+                <infoLink name="Recluta" id="2330-8d6d-2c45-00b0" hidden="false" type="profile" targetId="aac1-39ef-dfed-abde"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="88ba-fcae-3361-1d4c" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Comandante" hidden="false" id="40ce-413b-c590-e8e4" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a904-abef-3269-f5a4-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a904-abef-3269-f5a4-max" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Armas" id="9fb8-1c01-a77a-0610" hidden="false" flatten="true" sortIndex="1">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Fusiles" id="38f6-847e-56f2-65b0" hidden="false" collapsible="true" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="Fusil Corto" hidden="false" id="27cd-dfa2-9aaf-76a3" type="selectionEntry" targetId="ee00-4566-4e70-2a28" sortIndex="1">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="25"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Fusil Medio" hidden="false" id="1018-a21a-5b23-47a6" type="selectionEntry" targetId="7b3f-01ed-c9cf-dc39" sortIndex="2">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Fusil Largo" hidden="false" id="0115-2348-78f2-dcd4" type="selectionEntry" targetId="f1a5-17ad-0f12-1213" sortIndex="3">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="28"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Fusil de Cerrojo" hidden="false" id="c81a-70bc-9ec2-45be" type="selectionEntry" targetId="6d85-52fe-b15d-22de" sortIndex="4">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="15"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Pistolas" id="d75c-0a39-8d12-2f48" hidden="false" collapsible="true" sortIndex="1">
+                  <entryLinks>
+                    <entryLink import="true" name="Pistola" hidden="false" id="157a-508d-ba03-543a" type="selectionEntry" targetId="7450-4bcf-e688-a638">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Pistola Pesada" hidden="false" id="21f8-5fe5-e884-0a81" type="selectionEntry" targetId="87ce-65f3-e90a-c3dc">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="8"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f82a-806b-361f-aa4a" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Subfusiles" id="9970-585d-9e42-b163" hidden="false" collapsible="true" sortIndex="3">
+                  <entryLinks>
+                    <entryLink import="true" name="Subfusil" hidden="false" id="4add-7381-5cd0-887c" type="selectionEntry" targetId="bfbe-0fbd-d8da-5ce2">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="20"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Pistola Ametralladora" hidden="false" id="1dd9-3e28-a01b-9212" type="selectionEntry" targetId="5004-b431-da18-f16e">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="74f1-e6d6-54a5-690c" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Equipamiento" id="93ff-a081-a007-5e7b" hidden="false" sortIndex="3">
+              <entryLinks>
+                <entryLink import="true" name="Blindaje Corporal Encubierto" hidden="false" id="499b-510a-56da-091f" type="selectionEntry" targetId="3362-a69c-9050-dcd4">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Blindaje Corporal Pesado" hidden="false" id="5e04-5300-5565-9903" type="selectionEntry" targetId="be73-0cec-e2bf-9ff4">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="28"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Traje Ghillie" hidden="false" id="9fff-e948-0af5-f74c" type="selectionEntry" targetId="0032-9893-78ba-2be9">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="30"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="NVG Mk1" hidden="false" id="6fb0-1060-85d7-be96" type="selectionEntry" targetId="b46d-7a8f-ae5e-1424">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="20"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="NVG Mk2" hidden="false" id="a2d6-c4d2-043a-a0c0" type="selectionEntry" targetId="a704-ebdc-5ce1-b20e">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="28"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Ópticas Térmicas" hidden="false" id="af09-c48b-9105-d996" type="selectionEntry" targetId="f46c-8417-4a9b-16d1">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="32"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Comunicaciones de Larga Distancia" hidden="false" id="81f8-88b1-ef03-3346" type="selectionEntry" targetId="a1c3-df18-e636-830a">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="20"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Chaleco Bomba" hidden="false" id="02db-19d4-9c58-40d3" type="selectionEntry" targetId="864d-9f08-ab70-dffc">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="25"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Perro No Entrenado" hidden="false" id="37f5-f689-013a-553a" type="selectionEntry" targetId="e6b3-a917-3f81-e6de">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="30"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Detonador de IED" hidden="false" id="80e3-3a5d-a56f-0154" type="selectionEntry" targetId="cb03-cee4-ea46-cd03">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="12"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Herramientas de Brecha  Pesadas" hidden="false" id="d86b-ad34-d6bc-d286" type="selectionEntry" targetId="55ad-80e2-999c-7df2">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="8"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Silenciador" hidden="false" id="6671-cc8d-c2a6-f1b3" type="selectionEntry" targetId="0286-c9db-88a9-0657">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="30"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Ganzúas" hidden="false" id="aea5-87a2-fac2-caf3" type="selectionEntry" targetId="34d8-e5b2-6ca0-1469">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="4"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Nárcoticos" hidden="false" id="f3ef-1f39-024c-440d" type="selectionEntryGroup" targetId="c60d-fefb-28f4-0122"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Otras Armas" id="61cb-783e-02f4-3a11" hidden="false" flatten="true" sortIndex="2">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Armas Arrojadizas" id="9396-c1db-07cf-9ef1" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="Granada de Fragmentación" hidden="false" id="f06f-7f23-eb98-94a8" type="selectionEntry" targetId="bc28-1cf8-ff35-2950">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="30"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Cócktel Molotov" hidden="false" id="cbce-1226-0048-eeb8" type="selectionEntry" targetId="743a-a572-0346-7b3d">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="20"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Armas de Combate Cercano" id="e903-785c-f1c3-1e33" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="Arma de Defensa Personal" hidden="false" id="9b78-8855-41b4-970d" type="selectionEntry" targetId="a7c1-9441-8533-f70e"/>
+                    <entryLink import="true" name="Arma de Especialista" hidden="false" id="d597-844f-43cd-de45" type="selectionEntry" targetId="e0a6-7fcd-04e5-db15"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a891-b7d2-530c-0412" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <categoryLinks>
+            <categoryLink name="Unidades" hidden="false" id="a0a5-c6a4-bb1f-f74c" targetId="4067-dc61-e5af-04d8" primary="true"/>
+          </categoryLinks>
+        </selectionEntry>
+        <selectionEntry type="model" import="true" name="Guardaespaldas" hidden="false" id="b6a8-4bc1-bfa4-9a39" sortIndex="3">
+          <costs>
+            <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="20"/>
+          </costs>
+          <constraints>
+            <constraint type="max" value="6" field="selections" scope="root-entry" shared="true" id="0f40-cc8c-ba4c-d294" includeChildSelections="true"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink name="Unidades" hidden="false" id="4cd5-a7bb-e367-6f58" targetId="4067-dc61-e5af-04d8" primary="true"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Armas" id="d8be-c065-38ef-a8dd" hidden="false" flatten="true" sortIndex="1">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Ametralladoras" id="2bda-3cc3-2228-65c9" hidden="false" collapsible="true" sortIndex="5">
+                  <entryLinks>
+                    <entryLink import="true" name="Ametralladora Ligera de Asalto" hidden="false" id="73e0-704a-dfb9-64c6" type="selectionEntry" targetId="d66d-16ca-80cb-1379">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="28"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Ametralladora Ligera " hidden="false" id="0548-cfe9-3c3a-badc" type="selectionEntry" targetId="b0d0-6eac-b352-8a55">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="30"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Ametralladora Ligera Alimentada por Mochila" hidden="false" id="9fbd-8e82-65d8-9f2d" type="selectionEntry" targetId="0aa6-46d2-be1b-09f5">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="35"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Ametralladora Media" hidden="false" id="7eab-927a-9df3-963e" type="selectionEntry" targetId="698e-2892-f202-6122">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="38"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Escopetas" id="204b-def7-f94d-92d6" hidden="false" collapsible="true" sortIndex="4">
+                  <entryLinks>
+                    <entryLink import="true" name="Escopeta Recortada" hidden="false" id="685e-10d4-e46b-679c" type="selectionEntry" targetId="ce35-0dda-f19b-c082">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="8"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Escopeta" hidden="false" id="1677-d14d-988c-cf6f" type="selectionEntry" targetId="2c37-a3bc-0cfe-dc52">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="12"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Fusiles" id="1008-1825-a75e-0432" hidden="false" collapsible="true" sortIndex="2">
+                  <entryLinks>
+                    <entryLink import="true" name="Fusil Corto" hidden="false" id="9add-5943-403a-9bec" type="selectionEntry" targetId="ee00-4566-4e70-2a28" sortIndex="1">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="25"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Fusil Medio" hidden="false" id="d4ff-03de-a59c-0141" type="selectionEntry" targetId="7b3f-01ed-c9cf-dc39" sortIndex="2">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="10"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Fusil Largo" hidden="false" id="c4ce-eb2c-7283-ab79" type="selectionEntry" targetId="f1a5-17ad-0f12-1213" sortIndex="3">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="28"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Fusil de Cerrojo" hidden="false" id="1c60-225d-ee91-6cbe" type="selectionEntry" targetId="6d85-52fe-b15d-22de" sortIndex="4">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="15"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Pistolas" id="9fc7-e8ff-26dc-077f" hidden="false" collapsible="true" sortIndex="1">
+                  <entryLinks>
+                    <entryLink import="true" name="Pistola" hidden="false" id="8bd1-973f-a4e7-fc49" type="selectionEntry" targetId="7450-4bcf-e688-a638">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="5"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Pistola Pesada" hidden="false" id="cd43-a523-b9b6-eff3" type="selectionEntry" targetId="87ce-65f3-e90a-c3dc">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="8"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5349-f435-4633-ed06" includeChildSelections="true" includeChildForces="false"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Subfusiles" id="8371-8f61-e683-ab32" hidden="false" collapsible="true" sortIndex="3">
+                  <entryLinks>
+                    <entryLink import="true" name="Subfusil" hidden="false" id="b9ae-bf4f-9991-7d76" type="selectionEntry" targetId="bfbe-0fbd-d8da-5ce2">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="20"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Pistola Ametralladora" hidden="false" id="eaf5-674d-dfd6-c642" type="selectionEntry" targetId="5004-b431-da18-f16e">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="10"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Fusiles de Tirador" id="7cfb-6a89-ce38-be81" hidden="false" collapsible="true" sortIndex="6">
+                  <entryLinks>
+                    <entryLink import="true" name="DMR" hidden="false" id="a6f7-e41b-ff1a-5657" type="selectionEntry" targetId="121e-77b0-1a52-4ebb"/>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="02bf-6983-c65d-00df" shared="true" id="c584-772d-de16-4e9b" includeChildSelections="true"/>
+                  </constraints>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Lanzadores" id="035c-67ab-045c-b995" hidden="false" collapsible="true" sortIndex="7">
+                  <entryLinks>
+                    <entryLink import="true" name="RPG con proyectil HEAT" hidden="false" id="80ed-226b-7fb1-c367" type="selectionEntry" targetId="3d2d-0383-408b-44e5">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="28"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="RPG con proyectil Frag" hidden="false" id="94d9-6031-cf4b-6fc0" type="selectionEntry" targetId="a227-365f-c761-7927">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="36"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="RPG con proyectil Termobárico" hidden="false" id="07e2-22e8-c9d4-b532" type="selectionEntry" targetId="3457-e415-3f77-5be4">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="45"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="RPG con Proyectil en Tándem" hidden="false" id="3bb2-bc95-1f66-a6c2" type="selectionEntry" targetId="318f-3c0e-9d33-6e4c">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="70"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Lanzador Antitanque sin Guiado" hidden="false" id="8b40-1e2e-a0e1-2e41" type="selectionEntry" targetId="ae7a-a9dc-750f-1e47">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="120"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Lanzagranadas" hidden="false" id="0414-18a7-34c6-1a0d" type="selectionEntry" targetId="da65-e675-b738-8276">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="30"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Lanzagranadas Multiple" hidden="false" id="0bd4-f7a9-6646-f2d6" type="selectionEntry" targetId="2ad9-3704-47e5-f53d">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="50"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                  <constraints>
+                    <constraint type="max" value="2" field="selections" scope="02bf-6983-c65d-00df" shared="true" id="f0d5-8995-47ca-0076" includeChildSelections="true"/>
+                  </constraints>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e32-bb13-4508-723a" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Equipamiento" id="f3df-b8d5-aece-0456" hidden="false" sortIndex="3">
+              <entryLinks>
+                <entryLink import="true" name="Blindaje Corporal Encubierto" hidden="false" id="c9f7-9653-6836-0b18" type="selectionEntry" targetId="3362-a69c-9050-dcd4">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="10"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Blindaje Corporal Pesado" hidden="false" id="2951-b286-d4ec-73ea" type="selectionEntry" targetId="be73-0cec-e2bf-9ff4">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="28"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Traje Ghillie" hidden="false" id="7a12-e77a-5ea6-7ada" type="selectionEntry" targetId="0032-9893-78ba-2be9">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="30"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="NVG Mk1" hidden="false" id="0d77-a2c7-d56e-bd94" type="selectionEntry" targetId="b46d-7a8f-ae5e-1424">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="20"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="NVG Mk2" hidden="false" id="b513-8dde-248a-b366" type="selectionEntry" targetId="a704-ebdc-5ce1-b20e">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="28"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Ópticas Térmicas" hidden="false" id="bd54-3246-3df3-cf37" type="selectionEntry" targetId="f46c-8417-4a9b-16d1">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="32"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Comunicaciones de Larga Distancia" hidden="false" id="5a70-b581-c4d4-b8f9" type="selectionEntry" targetId="a1c3-df18-e636-830a">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="20"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Chaleco Bomba" hidden="false" id="b789-e6ff-7bae-7745" type="selectionEntry" targetId="864d-9f08-ab70-dffc">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="25"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Perro No Entrenado" hidden="false" id="5e57-9c3d-5c27-f8fc" type="selectionEntry" targetId="e6b3-a917-3f81-e6de">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="30"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Detonador de IED" hidden="false" id="767f-ecc8-274d-dcf6" type="selectionEntry" targetId="cb03-cee4-ea46-cd03">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="12"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Herramientas de Brecha  Pesadas" hidden="false" id="7a08-3902-0978-3cc8" type="selectionEntry" targetId="55ad-80e2-999c-7df2">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="8"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Silenciador" hidden="false" id="3cd2-dbe0-4717-9e77" type="selectionEntry" targetId="0286-c9db-88a9-0657">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="30"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Ganzúas" hidden="false" id="9d4e-ff65-7c33-88c3" type="selectionEntry" targetId="34d8-e5b2-6ca0-1469">
+                  <costs>
+                    <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="4"/>
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Nárcoticos" hidden="false" id="8d4c-7460-8539-8b85" type="selectionEntryGroup" targetId="c60d-fefb-28f4-0122"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Otras Armas" id="5163-2ef7-8543-3b19" hidden="false" flatten="true" sortIndex="2">
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Armas Arrojadizas" id="5323-81d2-01cb-e845" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="Granada de Fragmentación" hidden="false" id="bef2-864c-9d49-71e2" type="selectionEntry" targetId="bc28-1cf8-ff35-2950">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="30"/>
+                      </costs>
+                    </entryLink>
+                    <entryLink import="true" name="Cócktel Molotov" hidden="false" id="d8a0-b634-283a-3be0" type="selectionEntry" targetId="743a-a572-0346-7b3d">
+                      <costs>
+                        <cost name="Recursos" typeId="e097-af1e-bf07-f031" value="20"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Armas de Combate Cercano" id="ae58-e17d-7198-0978" hidden="false" collapsible="true">
+                  <entryLinks>
+                    <entryLink import="true" name="Arma de Defensa Personal" hidden="false" id="7224-47d4-100b-690f" type="selectionEntry" targetId="a7c1-9441-8533-f70e"/>
+                    <entryLink import="true" name="Arma de Especialista" hidden="false" id="af58-839d-0cc2-04d6" type="selectionEntry" targetId="e0a6-7fcd-04e5-db15"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c7d3-8a9a-118c-06d5" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </selectionEntries>
+  <forceEntries>
+    <forceEntry name="Force" id="df88-0f58-d895-bdde" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Unidades" hidden="false" id="cf08-2ce3-fa41-a922" targetId="4067-dc61-e5af-04d8"/>
+        <categoryLink name="Vehiculos" hidden="false" id="0a7a-4cad-99a5-591a" targetId="024d-de7e-57e5-be1d"/>
+        <categoryLink name="Activos" hidden="false" id="2015-e4ea-1a6e-e645" targetId="2053-24e9-7f5f-b47f"/>
+        <categoryLink name="Escaladas" hidden="false" id="7c44-d1d0-5eeb-61d3" targetId="c663-46bd-0aae-c03c"/>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Armas" id="0a6e-77d4-76d6-0e03" targetId="0daa-b4f2-7333-2915"/>
+    <catalogueLink type="catalogue" name="Vehiculos" id="45ef-7bf8-4512-f21d" targetId="5c5c-7f1e-984f-2f90"/>
+  </catalogueLinks>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Calidad" id="4e34-46cc-b8ff-59b3" hidden="false" defaultSelectionEntryId="e9a8-c793-3760-cf84">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Civil" hidden="false" id="b1b7-a64d-e6c9-138d" sortIndex="1">
+          <infoLinks>
+            <infoLink name="Civil" id="6982-8928-29ed-785d" hidden="false" type="profile" targetId="d2df-5d35-cf20-9324"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Criminal" hidden="false" id="1f22-7b43-68e0-e5be" sortIndex="2">
+          <infoLinks>
+            <infoLink name="Criminal" id="9444-e363-ec97-909c" hidden="false" type="profile" targetId="3c83-9cde-8e46-659d"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Recluta" hidden="false" id="e1a3-a761-c9a9-d862" sortIndex="3">
+          <infoLinks>
+            <infoLink name="Recluta" id="16b4-c6fd-1123-babb" hidden="false" type="profile" targetId="aac1-39ef-dfed-abde"/>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Milicia" hidden="false" id="e9a8-c793-3760-cf84" sortIndex="4">
+          <infoLinks>
+            <infoLink name="Milicia" id="bf7c-f295-2468-0295" hidden="false" type="profile" targetId="309c-9800-d8c1-1acd"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0423-1801-59fd-4ef1" includeChildSelections="false"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9f55-44d2-6aae-6196" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

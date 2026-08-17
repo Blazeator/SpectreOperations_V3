@@ -1,0 +1,2176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="0daa-b4f2-7333-2915" name="Armas" gameSystemId="sys-c514-e280-17d7-17af" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Pistola" hidden="false" id="7450-4bcf-e688-a638">
+      <profiles>
+        <profile name="Pistola" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="14b5-ccd0-fd2f-fdab">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+1/7+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">10&quot;/0/8+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">16&quot;/-2/10+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Compacta. Encubierta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Compacta" id="22ba-72ce-662b-5639" hidden="false" type="rule" targetId="97a7-86a6-9988-f4a7"/>
+        <infoLink name="Encubierta" id="ac4f-955a-cd1e-9c0b" hidden="false" type="rule" targetId="84e7-1fbd-1246-4767"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="688b-f5ff-ffa1-ebd8" id="f29e-9eb6-8622-c6e6" primary="true" name="Armas de Mano"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pistola Pesada" hidden="false" id="87ce-65f3-e90a-c3dc">
+      <profiles>
+        <profile name="Pistola Pesada" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="76be-8ef8-d9a3-bb95">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/0/4+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">10&quot;/-1/7+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">16&quot;/+3/8+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Compacta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Compacta" id="a1cc-72f6-8587-2cfa" hidden="false" type="rule" targetId="97a7-86a6-9988-f4a7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pistola Ametralladora" hidden="false" id="5004-b431-da18-f16e">
+      <categoryLinks>
+        <categoryLink targetId="688b-f5ff-ffa1-ebd8" id="a057-1b3d-8037-3b6d" primary="true" name="Armas de Mano"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Pistola Ametralladora" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="c3f2-9189-4f57-6378">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+1/6+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">8&quot;/-1/9+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">16&quot;/-3/10+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Automática, Compacta, Encubierta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Compacta" id="b5fb-51d9-3d0b-1c15" hidden="false" type="rule" targetId="97a7-86a6-9988-f4a7"/>
+        <infoLink name="Encubierta" id="bf27-4b15-fbfb-488f" hidden="false" type="rule" targetId="84e7-1fbd-1246-4767"/>
+        <infoLink name="Automática" id="9588-8baa-463b-3592" hidden="false" type="rule" targetId="3a4e-7032-b1d3-4019"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Subfusil" hidden="false" id="bfbe-0fbd-d8da-5ce2">
+      <categoryLinks>
+        <categoryLink targetId="87d6-222b-9f1d-12f0" id="379b-a20f-6b7a-4f2f" primary="true" name="Subfusiles"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Subfusil" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="2764-0e9b-1e45-4308">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+1/7+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">18&quot;/0/8+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">20&quot;/-2/10+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Automática, Compacta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Automática" id="e450-11bc-2afa-a390" hidden="false" type="rule" targetId="3a4e-7032-b1d3-4019"/>
+        <infoLink name="Compacta" id="25c0-3122-a527-949e" hidden="false" type="rule" targetId="97a7-86a6-9988-f4a7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pistola con Silenciamiento Integral" hidden="false" id="fc33-7ccc-769c-d3ae">
+      <categoryLinks>
+        <categoryLink targetId="688b-f5ff-ffa1-ebd8" id="9f6d-976e-601d-dd7b" primary="true" name="Armas de Mano"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Pistola con Silenciamiento Integral" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="1033-4015-12ac-2422">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+1/7+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">10&quot;/-1/9+/0</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">16&quot;/-2/10+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Silenciada, Compacta, Encubierta, Silenciado Integral</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Compacta" id="80b6-d988-b7f7-00b9" hidden="false" type="rule" targetId="97a7-86a6-9988-f4a7"/>
+        <infoLink name="Encubierta" id="5ba8-c8a2-b734-c2e0" hidden="false" type="rule" targetId="84e7-1fbd-1246-4767"/>
+        <infoLink name="Silenciado" id="8857-b587-8b0b-2089" hidden="false" type="rule" targetId="12c1-e945-da4a-7d93"/>
+        <infoLink name="Silenciado Integral" id="9a68-9ecc-4e63-24c2" hidden="false" type="rule" targetId="ee3f-8744-c056-da51"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Subfusil Compacto" hidden="false" id="d268-6cc3-45ff-4ea7">
+      <categoryLinks>
+        <categoryLink targetId="87d6-222b-9f1d-12f0" id="7c92-bbc4-7090-3bb3" primary="true" name="Subfusiles"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Subfusil Compacto" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="99c7-086e-1c0f-bc89">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+1/7+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">12&quot;/0/8+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">10&quot;/-1/10+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Automática, Compacta, Encubierta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Encubierta" id="bf88-61ea-c66d-20d7" hidden="false" type="rule" targetId="84e7-1fbd-1246-4767"/>
+        <infoLink name="Compacta" id="112d-0a63-a1ec-dfb3" hidden="false" type="rule" targetId="97a7-86a6-9988-f4a7"/>
+        <infoLink name="Automática" id="154f-7dc9-55ac-b997" hidden="false" type="rule" targetId="3a4e-7032-b1d3-4019"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="PDW" hidden="false" id="b5d3-ed17-326f-5b6a">
+      <categoryLinks>
+        <categoryLink targetId="5e66-6eee-af4e-4622" id="153e-80aa-a631-b4d7" primary="true" name="Fusiles"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="PDW" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="f2ee-1982-e5a9-99be">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+2/5+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">10&quot;/-1/6+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">20&quot;/-2/9+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Compacta, Encubierta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Compacta" id="fcd6-9d07-6c07-2f3a" hidden="false" type="rule" targetId="97a7-86a6-9988-f4a7"/>
+        <infoLink name="Encubierta" id="b7c2-2062-fc2f-1b71" hidden="false" type="rule" targetId="84e7-1fbd-1246-4767"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fusil Medio" hidden="false" id="7b3f-01ed-c9cf-dc39">
+      <categoryLinks>
+        <categoryLink targetId="5e66-6eee-af4e-4622" id="fa59-251b-73b4-c4fd" primary="true" name="Fusiles"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Fusil Medio" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="9d54-6df6-9322-5240">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/0/6+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">20&quot;/+1/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">40&quot;/-1/6+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fusil Corto" hidden="false" id="ee00-4566-4e70-2a28">
+      <categoryLinks>
+        <categoryLink targetId="5e66-6eee-af4e-4622" id="a956-7e70-ae5d-5862" primary="true" name="Fusiles"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Fusil Corto" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="442e-edfe-b2cf-431e">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+1/5+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">15&quot;/0/6+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">30&quot;/-1/7+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Compacta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Compacta" id="2c3a-a49d-4297-fd32" hidden="false" type="rule" targetId="97a7-86a6-9988-f4a7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fusil Largo" hidden="false" id="f1a5-17ad-0f12-1213">
+      <categoryLinks>
+        <categoryLink targetId="5e66-6eee-af4e-4622" id="5794-325a-cf7d-0d8b" primary="true" name="Fusiles"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Fusil Largo" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="92a8-1cc9-79c6-d054">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-1/7+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">30&quot;/+1/6+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">50&quot;/+1/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fusil de Combate Corto" hidden="false" id="f30f-7093-ddd7-d2e4">
+      <categoryLinks>
+        <categoryLink targetId="5e66-6eee-af4e-4622" id="6316-cd64-184d-7dac" primary="true" name="Fusiles"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Fusil de Combate Corto" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="e8e7-2f2d-575c-c730">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+1/4+/2</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">15&quot;/-1/7+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">30&quot;/-2/8+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Compacta, Penetración de Blindaje</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Compacta" id="ee5f-ac4e-baa6-73b2" hidden="false" type="rule" targetId="97a7-86a6-9988-f4a7"/>
+        <infoLink name="Penetración de Blindaje" id="b868-2cd2-ec38-4d91" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fusil de Combate" hidden="false" id="93de-c2f7-fd16-f1b3">
+      <profiles>
+        <profile name="Fusil de Combate" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="81ca-adff-b75f-1745">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-1/4+/2</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">20&quot;/+1/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">50&quot;/-2/6+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Penetración de Blindaje</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="5e66-6eee-af4e-4622" id="714d-66c5-30c0-6854" primary="true" name="Fusiles"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Penetración de Blindaje" id="1490-f2de-ccae-ce9f" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fusil Cal.50" hidden="false" id="2700-a9e1-eb76-1847">
+      <categoryLinks>
+        <categoryLink targetId="5e66-6eee-af4e-4622" id="bb36-8d76-8cdd-5db1" primary="true" name="Fusiles"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Fusil Cal.50" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="d6d3-731b-b9b1-3dcd">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+1/2+/2</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">15&quot;/0/4+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">30&quot;/-1/7+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Penetración de Blindaje, Brecha (+4)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Penetración de Blindaje" id="0a79-2855-f73c-0d38" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Brecha" id="3ab8-4d8d-1373-0703" hidden="false" type="rule" targetId="16c7-5d6c-eb37-fac5"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fusil de Cerrojo" hidden="false" id="6d85-52fe-b15d-22de">
+      <categoryLinks>
+        <categoryLink targetId="4d70-52fb-7cbc-230f" id="38a3-f094-e608-2e5d" primary="true" name="Fusiles de Tirador"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Fusil de Cerrojo" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="1ce6-a5ba-5b3d-a278">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/6+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">36&quot;/-/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-1/6/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Tiro a Tiro</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tiro a Tiro" id="668b-55b5-25bf-ac12" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="DMR" hidden="false" id="121e-77b0-1a52-4ebb">
+      <categoryLinks>
+        <categoryLink targetId="4d70-52fb-7cbc-230f" id="d5e0-0887-fed8-796c" primary="true" name="Fusiles de Tirador"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="DMR" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="1cde-b927-7890-66ec">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-1/7+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">30&quot;/+1/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/+1/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Tirador, Penetración de Blindaje</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tirador" id="ca23-97b8-f8d2-54b0" hidden="false" type="rule" targetId="9019-c09d-d929-cec4"/>
+        <infoLink name="Penetración de Blindaje" id="c6d3-4fc3-f9e6-8931" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Francotirador Medio" hidden="false" id="ee1a-7ee0-7020-169b">
+      <categoryLinks>
+        <categoryLink targetId="4d70-52fb-7cbc-230f" id="cb31-b029-1557-2285" primary="true" name="Fusiles de Tirador"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Francotirador Medio" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="67bd-d7f6-9e9e-f33d">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-3/7+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">42&quot;/+2/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/+1/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Tirador, Penetración de Blindaje, Supresión, Pesada</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tirador" id="885c-49ac-b831-db6a" hidden="false" type="rule" targetId="9019-c09d-d929-cec4"/>
+        <infoLink name="Penetración de Blindaje" id="dfbf-d345-2f3a-e116" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Supresión" id="655b-c0b2-aff8-870a" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Pesada" id="88fe-1966-6f97-fca8" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Francotirador Pesado" hidden="false" id="d4f7-5439-5d57-f59e">
+      <categoryLinks>
+        <categoryLink targetId="4d70-52fb-7cbc-230f" id="ddfd-db0f-9766-dd8d" primary="true" name="Fusiles de Tirador"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Francotirador Pesado" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="2d8d-dd86-9e0d-b5b5">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-4/8+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">48&quot;/+2/4+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/+1/3+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Tirador, Antiblindaje, Supresión, Pesada</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tirador" id="b048-e94b-d27c-e7a4" hidden="false" type="rule" targetId="9019-c09d-d929-cec4"/>
+        <infoLink name="Antiblindaje" id="1d1b-61b4-c90b-8d51" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Supresión" id="1076-6642-f18c-0cad" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Pesada" id="c48f-e1d5-c850-d764" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fusil Antimaterial" hidden="false" id="0006-15fe-2246-b497">
+      <categoryLinks>
+        <categoryLink targetId="4d70-52fb-7cbc-230f" id="89f2-9dd3-f956-a6c7" primary="true" name="Fusiles de Tirador"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Fusil Antimaterial" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="b148-6fc6-9c45-a1c0">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-4/8+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">60&quot;/+1/3+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/0/3+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Tirador, Antiblindaje, Frag, Supresión, Pesada</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tirador" id="54d6-5ed6-51a7-c818" hidden="false" type="rule" targetId="9019-c09d-d929-cec4"/>
+        <infoLink name="Antiblindaje" id="43a3-65c8-d167-e3d6" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Frag" id="0e93-c50b-f610-2119" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Supresión" id="74ee-618f-d74c-83a4" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Pesada" id="f086-d5bf-3d94-3a61" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fusil Payload" hidden="false" id="dc62-612c-eed4-6018">
+      <categoryLinks>
+        <categoryLink targetId="4d70-52fb-7cbc-230f" id="2ad9-9690-221a-e8d7" primary="true" name="Fusiles de Tirador"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Fusil Payload" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="2673-6b49-ab3c-eb15">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-4/8+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">40&quot;/+1/2+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/0/2+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Tirador, AoE 2&quot;, Antiblindaje, Frag, Supresión, Pesada</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tirador" id="952e-2b9f-f8a4-274f" hidden="false" type="rule" targetId="9019-c09d-d929-cec4"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="ab7a-ecf0-21f6-28f6" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antiblindaje" id="f69f-4fed-2b4e-92f1" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Supresión" id="615a-b350-ff1b-7985" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Frag" id="8861-f8b1-30c4-0330" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Pesada" id="b893-bf12-90cb-97bc" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ametralladora Ligera de Asalto" hidden="false" id="d66d-16ca-80cb-1379">
+      <categoryLinks>
+        <categoryLink targetId="290e-4c28-a628-d1cf" id="39bd-8678-bee9-28b5" primary="true" name="Ametralladoras"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ametralladora Ligera de Asalto (LMG)" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="a9af-2422-22a5-22f8">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+1/5+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">15&quot;/+1/6+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">25&quot;/-1/7+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Automática, Compacta</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Automática" id="5caf-17e3-5724-60f0" hidden="false" type="rule" targetId="3a4e-7032-b1d3-4019"/>
+        <infoLink name="Compacta" id="25d9-6497-de9d-e2c5" hidden="false" type="rule" targetId="97a7-86a6-9988-f4a7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ametralladora Ligera Alimentada por Mochila" hidden="false" id="0aa6-46d2-be1b-09f5">
+      <profiles>
+        <profile name="Ametralladora Ligera Alimentada por Mochila" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="75be-1358-00b7-dee6">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/0/6+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">20&quot;/+1/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">40&quot;/-1/6+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Fuego Sostenido 2, Supresión</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="290e-4c28-a628-d1cf" id="ac16-4813-49fc-e2fe" primary="true" name="Ametralladoras"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Fuego Sostenido" id="1dba-d73e-a186-7ec8" hidden="false" type="rule" targetId="d7d2-9d2c-7e35-d902"/>
+        <infoLink name="Supresión" id="bc98-9ccb-3a40-2b2c" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ametralladora Ligera " hidden="false" id="b0d0-6eac-b352-8a55">
+      <profiles>
+        <profile name="Ametralladora Ligera " typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="9bcd-ece0-0158-1a2c">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/0/6+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">20&quot;/+1/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">40&quot;/-1/6+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Automática, Supresión</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="290e-4c28-a628-d1cf" id="55a1-576d-c9f8-e0d7" primary="true" name="Ametralladoras"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Automática" id="6b1e-31f4-f760-e6c8" hidden="false" type="rule" targetId="3a4e-7032-b1d3-4019"/>
+        <infoLink name="Supresión" id="f777-a1df-1240-051c" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ametralladora Media" hidden="false" id="698e-2892-f202-6122">
+      <categoryLinks>
+        <categoryLink targetId="290e-4c28-a628-d1cf" id="ee13-cc51-3cb3-415e" primary="true" name="Ametralladoras"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ametralladora Media" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="b1c2-ee0a-d09f-a4c6">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-1/7+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">30&quot;/+1/5+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">50&quot;/0/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Fuego Sostenido 2, Supresión, Pesada</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fuego Sostenido" id="4b93-86d7-6b0d-de16" hidden="false" type="rule" targetId="d7d2-9d2c-7e35-d902"/>
+        <infoLink name="Supresión" id="d4de-d324-5d7d-672b" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Pesada" id="1aa9-722d-cd1b-ae75" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ametralladora Media Dual" hidden="false" id="e8c1-805f-4511-9efe">
+      <profiles>
+        <profile name="Ametralladora Media Dual" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="07a0-4c78-1989-a332">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-1/7+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">30&quot;/+1/5+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">50&quot;/0/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 3, Desplegable, Supresión, Pesada</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="0bac-9432-71a9-813b" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Pesada" id="6094-44a8-4b85-d933" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Supresión" id="664e-694d-0612-ec2d" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Desplegable" id="d5dc-f4e2-78e0-5246" hidden="false" type="rule" targetId="bc64-c4a5-c89e-9f95"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="290e-4c28-a628-d1cf" id="f486-edbe-5e01-7bae" primary="true" name="Ametralladoras"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ametralladora de Asalto" hidden="false" id="4260-6e01-1676-3625">
+      <profiles>
+        <profile name="Ametralladora de Asalto" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="b6c4-0cf3-32c8-3a0e">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-1/7+/2</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">40&quot;/+1/4+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">60&quot;/0/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Fuego Sostenido 2, Supresión, Penetración de Blindaje</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="290e-4c28-a628-d1cf" id="0ece-0c53-5041-5182" primary="true" name="Ametralladoras"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Fuego Sostenido" id="992f-16f7-195d-fe47" hidden="false" type="rule" targetId="d7d2-9d2c-7e35-d902"/>
+        <infoLink name="Supresión" id="ac1b-8bc8-869f-8a76" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Penetración de Blindaje" id="04b3-78aa-9c65-be88" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ametralladora Pesada" hidden="false" id="6913-fd31-fcca-c6c7">
+      <categoryLinks>
+        <categoryLink targetId="290e-4c28-a628-d1cf" id="bff3-9c17-8cf1-6965" primary="true" name="Ametralladoras"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ametralladora Pesada" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="e027-deef-c60e-c366">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/5+/2</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">50&quot;/+1/3+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">60&quot;/0/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Fuego Sostenido 2, Penetración de Blindaje, Pesada, Desplegable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fuego Sostenido" id="fcb5-0478-fd45-d8e9" hidden="false" type="rule" targetId="d7d2-9d2c-7e35-d902"/>
+        <infoLink name="Penetración de Blindaje" id="be22-9460-6ad8-e4af" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Pesada" id="83f3-d20f-6356-44a0" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Desplegable" id="3ac9-110f-13cb-e47b" hidden="false" type="rule" targetId="bc64-c4a5-c89e-9f95"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ametralladora Rotativa Portatil" hidden="false" id="8108-9ed9-e292-8151">
+      <categoryLinks>
+        <categoryLink targetId="b9dd-08c8-2e48-6b7a" id="faf9-4455-c4ae-eb97" primary="true" name="Miniguns"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ametralladora Rotativa Portatil" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="f465-87c1-b96e-256c">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/2+/6+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">20&quot;+1/7+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">40&quot;/0/8+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Fuego Sostenido 3, Supresión</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Fuego Sostenido" id="e95a-219c-049d-ecaa" hidden="false" type="rule" targetId="d7d2-9d2c-7e35-d902"/>
+        <infoLink name="Supresión" id="7410-87e2-a323-f257" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ametralladora Rotativa" hidden="false" id="ef99-a832-5135-e797">
+      <categoryLinks>
+        <categoryLink targetId="b9dd-08c8-2e48-6b7a" id="ed31-652a-5c34-b5bc" primary="true" name="Miniguns"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ametralladora Rotativa" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="8fa6-8487-2d7c-058b">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-1/7+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">30&quot;/+1/5+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">50&quot;/0/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 6, Supresión, Pesada, Penetración de Blindaje, Desplegable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="7d8c-39dd-318c-6418" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Pesada" id="b4d1-b3a6-00f2-3fe4" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Penetración de Blindaje" id="da50-63af-ce14-429d" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Desplegable" id="48b6-60da-42c3-29dd" hidden="false" type="rule" targetId="bc64-c4a5-c89e-9f95"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ametralladora Rotativa Pesada" hidden="false" id="5f24-e2f3-f6ab-1eec">
+      <categoryLinks>
+        <categoryLink targetId="b9dd-08c8-2e48-6b7a" id="de49-035b-0e0d-01fa" primary="true" name="Miniguns"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ametralladora Rotativa Pesada" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="d630-55cf-12ff-2bf1">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/5+/2</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">50&quot;/+1/3+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/0/3+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 4, Supresión, Penetración de Blindaje, Pesada, Desplegable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="8548-e20b-ecb3-e0da" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Supresión" id="40cb-7523-249b-0fec" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Penetración de Blindaje" id="1336-cbdf-66e4-b57e" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Pesada" id="be8e-affa-82f6-e563" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Desplegable" id="2044-d780-a853-fb62" hidden="false" type="rule" targetId="bc64-c4a5-c89e-9f95"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Escopeta Recortada" hidden="false" id="ce35-0dda-f19b-c082">
+      <categoryLinks>
+        <categoryLink targetId="0442-1e7a-698b-e73f" id="ba64-a904-ffb2-2ab5" primary="true" name="Escopetas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Escopeta Recortada" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="e6c2-7bde-3d3b-886d">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+3/4+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">8&quot;/-1/8+/0</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">12&quot;/-2/10+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Compacta, Encubierta, Tiro a Tiro</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Compacta" id="b854-9c0e-4511-5447" hidden="false" type="rule" targetId="97a7-86a6-9988-f4a7"/>
+        <infoLink name="Encubierta" id="fcd3-7964-e566-9b13" hidden="false" type="rule" targetId="84e7-1fbd-1246-4767"/>
+        <infoLink name="Tiro a Tiro" id="5575-cd61-4de5-21ad" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Escopeta" hidden="false" id="2c37-a3bc-0cfe-dc52">
+      <categoryLinks>
+        <categoryLink targetId="0442-1e7a-698b-e73f" id="06bb-fabb-ac87-5cd6" primary="true" name="Escopetas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Escopeta" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="c3fd-97ab-c4cf-4275">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+2/4+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">10&quot;/0/7+/0</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">16&quot;/0/9+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Tiro a Tiro, Brecha (+1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tiro a Tiro" id="9638-a28b-d315-e964" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Brecha" id="1bac-e4db-a2f5-b91e" hidden="false" type="rule" targetId="16c7-5d6c-eb37-fac5"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Escopeta de Combate" hidden="false" id="e2e4-0bc3-36b6-9395">
+      <categoryLinks>
+        <categoryLink targetId="0442-1e7a-698b-e73f" id="f33b-20e5-ef58-d8cf" primary="true" name="Escopetas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Escopeta de Combate" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="4b29-2674-c780-446a">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+2/4+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">12&quot;/0/7+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">20&quot;/0/8+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Brecha (+2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Brecha" id="6dc7-c625-257c-4105" hidden="false" type="rule" targetId="16c7-5d6c-eb37-fac5"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Escopeta Automática" hidden="false" id="063d-2533-e196-e923">
+      <categoryLinks>
+        <categoryLink targetId="0442-1e7a-698b-e73f" id="f894-8221-5892-9ba9" primary="true" name="Escopetas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Escopeta Automática" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="d6d8-aa7b-c972-107e">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+2/4+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">10&quot;/0/7+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">16&quot;/0/8+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Automática, Supresión, Brecha (+2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Automática" id="6227-e75b-05de-e7ec" hidden="false" type="rule" targetId="3a4e-7032-b1d3-4019"/>
+        <infoLink name="Supresión" id="d92e-e986-aaef-74e0" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Brecha" id="47e2-fbe8-38d3-3f52" hidden="false" type="rule" targetId="16c7-5d6c-eb37-fac5"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Granada de Fragmentación" hidden="false" id="bc28-1cf8-ff35-2950">
+      <categoryLinks>
+        <categoryLink targetId="0f35-d25d-c28b-8a0a" id="90b6-7dde-b92d-5055" primary="true" name="Armas Arrojadizas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Granada de Fragmentación" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="9e0c-2e7e-af9b-9fc0">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/0/6+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">8&quot;/-1/6+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">12&quot;/-2/6+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Aoe 3, Frag</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="0806-6f1c-b15f-d5e8" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Frag" id="5191-322c-073a-7cd1" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mini Granada de Fragmentación" hidden="false" id="f10c-31c1-c817-bbc2">
+      <categoryLinks>
+        <categoryLink targetId="0f35-d25d-c28b-8a0a" id="a823-47ee-cb05-0892" primary="true" name="Armas Arrojadizas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Mini Granada de Fragmentación" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="de83-db5a-3b97-f3fb">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/0/6+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">10&quot;/0/6+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">14&quot;/-2/6+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Aoe 3, Frag</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="c37c-5355-eff7-cd8f" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Frag" id="287c-c6c4-3c98-5e9b" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cócktel Molotov" hidden="false" id="743a-a572-0346-7b3d">
+      <categoryLinks>
+        <categoryLink targetId="0f35-d25d-c28b-8a0a" id="dfce-4b0a-4a55-5868" primary="true" name="Armas Arrojadizas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cócktel Molotov" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="dab8-da43-3fdf-483f">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-1/7+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">8&quot;/-2/7+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">10&quot;/-3/7+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Incendiaria</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="893f-5fae-6bc1-f965" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Incendiarias" id="46d9-a24c-f5ae-8f77" hidden="false" type="rule" targetId="46c4-57c7-81c0-cf5a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Granada Aturdidora" hidden="false" id="4d61-3776-e1a0-bae4">
+      <categoryLinks>
+        <categoryLink targetId="0f35-d25d-c28b-8a0a" id="9d6e-eb63-63f0-3f6f" primary="true" name="Armas Arrojadizas"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="99eb-897a-fffa-f21e" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Aturdir" id="c9b3-9748-500e-8f50" hidden="false" type="rule" targetId="ad8c-eca2-6734-5595"/>
+      </infoLinks>
+      <profiles>
+        <profile name="Granada Aturdidora" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="dca3-1063-0054-1f8b">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/0/-/0</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">6&quot;/0/-/0</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">6&quot;/0/-/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 3, Aturdir</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Granada de Humo" hidden="false" id="6fa1-967a-f865-4661">
+      <categoryLinks>
+        <categoryLink targetId="0f35-d25d-c28b-8a0a" id="c728-eee4-c19d-b275" primary="true" name="Armas Arrojadizas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Granada de Humo" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="153b-27e1-25d9-f716">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/0/6+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">8&quot;/-1/6+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">12&quot;/-2/-/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Humo, Silenciado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Humo" id="30b6-c195-61e6-6314" hidden="false" type="rule" targetId="c141-ef00-f851-08b9"/>
+        <infoLink name="Silenciado" id="36b6-c35c-9284-2bbc" hidden="false" type="rule" targetId="12c1-e945-da4a-7d93"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lanzagranadas de Asalto" hidden="false" id="d273-f257-7eb3-8fc8">
+      <categoryLinks>
+        <categoryLink targetId="f5ca-4a3c-1d7b-a920" id="80bc-3fcf-1d11-bc2c" primary="true" name="Lanzagranadas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Lanzagranadas de Asalto" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="0301-b6a6-9de3-821a">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">14&quot;/-1/6+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">24&quot;/-2/6+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 3, Compacta, Tiro a Tiro, Frag, Supresión, Penetración de Blindaje, Alcance Mínimo 8&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="a98e-36f8-7308-ee27" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Tiro a Tiro" id="b95c-2e17-8859-33f1" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Compacta" id="be5c-44d4-6439-6d2e" hidden="false" type="rule" targetId="97a7-86a6-9988-f4a7"/>
+        <infoLink name="Frag" id="4854-ed2b-39c3-2e32" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Supresión" id="ca0e-bd75-50f6-9e9f" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Penetración de Blindaje" id="d666-1a16-1351-68e3" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lanzagranadas" hidden="false" id="da65-e675-b738-8276">
+      <categoryLinks>
+        <categoryLink targetId="f5ca-4a3c-1d7b-a920" id="3529-bb25-53b6-e826" primary="true" name="Lanzagranadas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Lanzagranadas" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="5e84-08f8-b685-5d0e">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">20&quot;/-1/6+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">40&quot;/-2/6+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 3, Compacta, Tiro a Tiro, Frag, Supresión, Penetración de Blindaje, Alcance Mínimo 8&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="990c-02ab-ffcf-c1f8" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Compacta" id="ee88-2a10-2ac0-4d80" hidden="false" type="rule" targetId="97a7-86a6-9988-f4a7"/>
+        <infoLink name="Frag" id="d652-4d4e-3aa3-93f9" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Penetración de Blindaje" id="df4c-05c8-3e27-bf12" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Supresión" id="fd65-8f1f-523c-af7e" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Tiro a Tiro" id="06ef-c293-1162-c556" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lanzagranadas Multiple" hidden="false" id="2ad9-3704-47e5-f53d">
+      <categoryLinks>
+        <categoryLink targetId="f5ca-4a3c-1d7b-a920" id="cfc1-b9d3-08ef-70f1" primary="true" name="Lanzagranadas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Lanzagranadas Multiple" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="58ae-bc30-5d7b-2a05">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">20&quot;/-1/6+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">40&quot;/-2/6+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 3, Automática, Frag, Supresión, Penetración de Blindaje, Alcance Mínimo 8&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="AoE y Automática / Fuego Sostenido" id="a36d-1606-e08e-21a2" hidden="false" type="rule" targetId="e97b-fc16-ffce-2757"/>
+        <infoLink name="Automática" id="8c3a-e4e4-f910-d5d0" hidden="false" type="rule" targetId="3a4e-7032-b1d3-4019"/>
+        <infoLink name="Frag" id="856b-abb5-6b12-e793" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Penetración de Blindaje" id="181c-29c3-692a-fd7d" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Supresión" id="ff83-132c-86f9-07d0" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="3c24-e599-23dd-ac2b" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lanzagranadas Automático" hidden="false" id="8648-6b96-1bb3-dd19">
+      <categoryLinks>
+        <categoryLink targetId="f5ca-4a3c-1d7b-a920" id="086c-ec05-fb6f-b760" primary="true" name="Lanzagranadas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Lanzagranadas Automático" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="939e-ceec-6bc8-ae9f">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">45&quot;/0/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-2/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 4, Fuego Sostenido 2, Frag, Supresión, Penetración de Blindaje, Alcance Mínimo 8&quot;, Desplegable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="AoE y Automática / Fuego Sostenido" id="50ab-40df-7c93-e2be" hidden="false" type="rule" targetId="e97b-fc16-ffce-2757"/>
+        <infoLink name="Fuego Sostenido" id="3f07-beee-6d0f-4d65" hidden="false" type="rule" targetId="d7d2-9d2c-7e35-d902"/>
+        <infoLink name="Frag" id="bb01-8da6-c2fe-3d19" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Supresión" id="35d7-6ea0-41de-3a12" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Penetración de Blindaje" id="8cdc-22d9-9df7-4e61" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Desplegable" id="c277-b504-5d74-97f9" hidden="false" type="rule" targetId="bc64-c4a5-c89e-9f95"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="1f66-15c8-a597-34e4" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lanzagranadas Compacto" hidden="false" id="761f-80a9-919b-5bba">
+      <categoryLinks>
+        <categoryLink targetId="f5ca-4a3c-1d7b-a920" id="7f0c-736c-bed7-eb27" primary="true" name="Lanzagranadas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Lanzagranadas Compacto" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="c6d2-7a3d-d38e-ce02">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-1/5+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">30&quot;/-1/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">60&quot;/-2/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 3, Compacta, Tiro a Tiro, Frag, Supresión, Antiblindaje, Explosión Aérea, Guiado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="9376-eec5-ffbe-c269" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Compacta" id="e54c-c18f-a70b-ca0d" hidden="false" type="rule" targetId="97a7-86a6-9988-f4a7"/>
+        <infoLink name="Tiro a Tiro" id="9fc6-9054-dd99-efb2" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Frag" id="39e2-43fd-e27b-5dc9" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Supresión" id="f915-192d-c2f0-54b4" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Antiblindaje" id="371c-6be3-b749-5dd8" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Explosión Aérea" id="833b-e2cd-50f3-b71b" hidden="false" type="rule" targetId="7adb-b9eb-e67e-87d8"/>
+        <infoLink name="Guiado" id="d041-3255-0311-531b" hidden="false" type="rule" targetId="f408-6665-89e1-7457"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Penetración de Blindaje" hidden="false" id="9dd4-48df-6eb3-e9a6">
+      <categoryLinks>
+        <categoryLink targetId="2e72-2ca9-c7b2-e1aa" id="aa1b-4b42-c6e4-f93f" primary="true" name="Munición Merodeadora"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Penetración de Blindaje" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="4be5-534c-9aa5-5d30">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">∞/+1/7+/6</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">∞/+1/7+/6</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/+1/7+/6</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, AntiTanque, Un Uso, Pesada, Proyectil en Tandem, Guiado, Ataque desde Arriba, Proyectil Merodeador Pesado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="5436-72c1-059c-210b" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antitanque" id="10ca-baa6-8d10-f88e" hidden="false" type="rule" targetId="f5bf-11fb-1247-b986"/>
+        <infoLink name="Un Uso" id="b29e-53cc-85a3-42cb" hidden="false" type="rule" targetId="93ee-a371-5cb8-7d8f"/>
+        <infoLink name="Pesada" id="e57e-220f-5a7e-4a70" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Proyectil en Tandem" id="dc21-d597-eb85-b4c4" hidden="false" type="rule" targetId="6c75-4e09-025a-fb1e"/>
+        <infoLink name="Guiado" id="a585-6706-b1be-a9b6" hidden="false" type="rule" targetId="f408-6665-89e1-7457"/>
+        <infoLink name="Ataque desde arriba" id="88c3-4bcb-1364-f59f" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+        <infoLink name="Proyectil Merodeador" id="68c0-150e-6534-3786" hidden="false" type="rule" targetId="640a-a483-0ca2-97a8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Antipersona" hidden="false" id="a5e0-914b-bb22-31e0">
+      <categoryLinks>
+        <categoryLink targetId="2e72-2ca9-c7b2-e1aa" id="c4ce-e602-e66e-7fcd" primary="true" name="Munición Merodeadora"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Antipersona" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="29cb-d756-585f-07cb">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">∞/+1/5+/2</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">∞/+1/5+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/+1/5+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 6, Frag, Un Uso, Explosión Aérea, Guiado, Proyectil Merodeador</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="e376-f673-e79b-a115" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Frag" id="780d-0125-ba43-1ec8" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Un Uso" id="c2ba-6a9b-cbd2-ddb3" hidden="false" type="rule" targetId="93ee-a371-5cb8-7d8f"/>
+        <infoLink name="Explosión Aérea" id="e64e-b62f-58f6-2197" hidden="false" type="rule" targetId="7adb-b9eb-e67e-87d8"/>
+        <infoLink name="Guiado" id="d793-94bd-2edd-8215" hidden="false" type="rule" targetId="f408-6665-89e1-7457"/>
+        <infoLink name="Proyectil Merodeador" id="2bab-d7d6-6d07-cb51" hidden="false" type="rule" targetId="640a-a483-0ca2-97a8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="RPG con proyectil Frag" hidden="false" id="a227-365f-c761-7927">
+      <categoryLinks>
+        <categoryLink targetId="995b-9608-37fa-68e5" id="5d69-383c-3f61-38f7" primary="true" name="Sistema de Armas Operadas Desde el Hombro"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="RPG con proyectil Frag" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="fa6b-c79b-c80a-1d6c">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">30&quot;/-1/6+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">50&quot;/-2/6+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 4, Frag, Tiro a Tiro, Alcance Mínimo 8&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Frag" id="d12b-1263-fb1b-4ded" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="872a-e11b-aae1-142f" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Tiro a Tiro" id="bdaf-9387-da52-c888" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="RPG con proyectil Termobárico" hidden="false" id="3457-e415-3f77-5be4">
+      <categoryLinks>
+        <categoryLink targetId="995b-9608-37fa-68e5" id="0185-2b8d-9312-bec8" primary="true" name="Sistema de Armas Operadas Desde el Hombro"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="RPG con proyectil Termobárico" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="5881-6a98-33b7-1d64">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">30&quot;/-1/4+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">50&quot;/-2/4+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 4, Termobárico, Tiro a Tiro, Penetración de Blindaje, Alcance Mínimo 8&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Penetración de Blindaje" id="e2b9-c500-f7d3-84c7" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="e481-e676-0f08-7659" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Tiro a Tiro" id="f3f3-c34e-9b43-6d8d" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Termobárica" id="7b70-9d9a-dfe8-5f15" hidden="false" type="rule" targetId="6e6f-6c8a-4825-1132"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="RPG con proyectil HEAT" hidden="false" id="3d2d-0383-408b-44e5">
+      <categoryLinks>
+        <categoryLink targetId="995b-9608-37fa-68e5" id="e8f1-bec2-2d71-85c2" primary="true" name="Sistema de Armas Operadas Desde el Hombro"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="RPG con proyectil HEAT" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="792e-057f-68fa-2ae1">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">30&quot;/-1/8+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">50&quot;/-2/8+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Antiblindaje, Tiro a Tiro, Alcance Mínimo 8&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Antiblindaje" id="c30c-fef8-d4fd-ff71" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="215c-d11b-99c4-b09a" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Tiro a Tiro" id="d20e-0d23-8c32-accd" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="RPG con Proyectil en Tándem" hidden="false" id="318f-3c0e-9d33-6e4c">
+      <categoryLinks>
+        <categoryLink targetId="995b-9608-37fa-68e5" id="349a-f9dd-fd9e-ba31" primary="true" name="Sistema de Armas Operadas Desde el Hombro"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="RPG con Proyectil en Tándem" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="9e23-f35b-c3ab-c886">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">30&quot;/-1/8+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">50&quot;/-2/8+/3</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Antiblindaje, Tiro a Tiro, Proyectil en Tandem, Pesada, Alcance Mínimo 8&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Pesada" id="899b-c6d3-ec9d-dc50" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="0bef-338d-bca1-abf4" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Tiro a Tiro" id="939e-1e6b-7249-7d1f" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Proyectil en Tandem" id="825a-ad14-695f-6760" hidden="false" type="rule" targetId="6c75-4e09-025a-fb1e"/>
+        <infoLink name="Antiblindaje" id="4b3a-d6c7-228a-ba26" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cañón sin Retroceso con Proyectil Flechette" hidden="false" id="d609-9d67-9b66-4f6f">
+      <profiles>
+        <profile name="Cañón sin Retroceso con Proyectil Flechette" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="0b85-8e98-9aa5-3f83">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+2/5+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">10&quot;/+1/6+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">12&quot;/-1/8+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 5, Frag, Tiro a Tiro</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="e291-7dd1-f593-7ab6" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Tiro a Tiro" id="406a-0740-d0dc-475f" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Frag" id="29bb-bb34-8655-d175" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="995b-9608-37fa-68e5" id="1b47-f3c4-5529-29b1" primary="true" name="Sistema de Armas Operadas Desde el Hombro"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cañón sin Retroceso con Proyectil HEAT" hidden="false" id="3a5d-5207-230c-8d33">
+      <profiles>
+        <profile name="Cañón sin Retroceso con Proyectil HEAT" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="2baa-b749-ff8c-9ea2">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">35&quot;/0/8+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">55&quot;/-1/8+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Antiblindaje, Tiro a Tiro, Alcance Mínimo 8&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="f939-98c1-1b3b-d0bd" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antiblindaje" id="d6dc-4e87-7623-fda9" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Tiro a Tiro" id="0c95-c2c4-816c-9ba1" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="995b-9608-37fa-68e5" id="c746-65fa-c4c6-3c24" primary="true" name="Sistema de Armas Operadas Desde el Hombro"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cañón sin Retroceso con Proyectil de Explosión Aerea" hidden="false" id="371c-1a7c-d236-2929">
+      <profiles>
+        <profile name="Cañón sin Retroceso con Proyectil de Explosión Aerea" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="abbe-f933-3d45-a703">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">35&quot;/0/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">55&quot;/-1/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 4, Frag, Tiro a Tiro, Explosión Aérea, Alcance Mínimo 8&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="7d21-cd4c-b384-cab1" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Explosión Aérea" id="2a56-27a4-aa04-9dff" hidden="false" type="rule" targetId="7adb-b9eb-e67e-87d8"/>
+        <infoLink name="Tiro a Tiro" id="6100-2d0a-b115-fed2" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Frag" id="0b87-dcdc-5aac-dbc5" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink targetId="995b-9608-37fa-68e5" id="a490-c519-51e6-3194" primary="true" name="Sistema de Armas Operadas Desde el Hombro"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="AT4 con Proyectil HE" hidden="false" id="5cdf-0a43-6a71-0184">
+      <categoryLinks>
+        <categoryLink targetId="995b-9608-37fa-68e5" id="ad89-aba2-2a05-bdd4" primary="true" name="Sistema de Armas Operadas Desde el Hombro"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="AT4 con Proyectil HEAT" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="6f00-1a96-aa1a-4fd7">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">35&quot;/0/4+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">55&quot;/-1/4+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Penetración de Blindaje, Tiro a Tiro, Pesada, Frag, Explosión Aérea, Alcance Mínimo 8&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="5abe-2a43-8a9d-a829" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Penetración de Blindaje" id="1ebf-a6d3-1d14-4beb" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Tiro a Tiro" id="7038-2bf2-7f53-9e1d" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Pesada" id="cc2c-39a6-28bf-e570" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Frag" id="ddc3-468d-463d-325b" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Explosión Aérea" id="5944-bb1e-741f-8bc5" hidden="false" type="rule" targetId="7adb-b9eb-e67e-87d8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="AT4 con Proyectil HEAT" hidden="false" id="3fce-ef3a-87f3-6895">
+      <categoryLinks>
+        <categoryLink targetId="995b-9608-37fa-68e5" id="2c8c-7c19-4519-4923" primary="true" name="Sistema de Armas Operadas Desde el Hombro"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="AT4 con Proyectil HEAT" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="efaa-dee2-12b1-5966">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">35&quot;/0/8+/4</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">55&quot;/-1/8+/4</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Antiblindaje, Tiro a Tiro, Pesada, Proyectil en Tandem, Alcance Mínimo 8&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="c96d-682d-67dd-aa4e" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antiblindaje" id="2e72-08b2-5975-635f" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Tiro a Tiro" id="c21c-1c5b-5d81-eeb5" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Pesada" id="cca5-b382-0623-b7a3" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Proyectil en Tandem" id="1dc3-c7bd-b501-9775" hidden="false" type="rule" targetId="6c75-4e09-025a-fb1e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lanzador Antitanque Ligero Guiado" hidden="false" id="907a-e547-dac3-1794">
+      <profiles>
+        <profile name="Lanzador Antitanque Ligero Guiado" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="3ef7-ecb6-3321-f083">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">35&quot;/-/5+/8</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">60&quot;/-/5+/8</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Antitanque, Un Uso, Pesada, Proyectil en Tandem, Guiado, Ataque desde Arriba, Alcance Mínimo 10&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="995b-9608-37fa-68e5" id="f897-6712-df29-87a1" primary="true" name="Sistema de Armas Operadas Desde el Hombro"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="4e38-b7bb-380e-0d43" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antitanque" id="3689-f6db-89bc-8108" hidden="false" type="rule" targetId="f5bf-11fb-1247-b986"/>
+        <infoLink name="Un Uso" id="0f63-aab5-ade1-f88b" hidden="false" type="rule" targetId="93ee-a371-5cb8-7d8f"/>
+        <infoLink name="Pesada" id="5776-8dfc-2146-4a9e" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Proyectil en Tandem" id="600f-b6e1-d7a5-9cd6" hidden="false" type="rule" targetId="6c75-4e09-025a-fb1e"/>
+        <infoLink name="Guiado" id="d5d4-79cd-1a79-93f8" hidden="false" type="rule" targetId="f408-6665-89e1-7457"/>
+        <infoLink name="Ataque desde arriba" id="c7dd-eecf-6541-d474" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lanzador Antitanque sin Guiado" hidden="false" id="ae7a-a9dc-750f-1e47">
+      <profiles>
+        <profile name="Lanzador Antitanque sin Guiado" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="a1a6-02b8-c381-660e">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">35&quot;/-1/6+/6</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">55&quot;/-2/6+/6</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Antitanque, Un Uso, Pesada, Proyectil en Tandem, Alcance Mínimo 8&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="995b-9608-37fa-68e5" id="679b-632d-c5df-f733" primary="true" name="Sistema de Armas Operadas Desde el Hombro"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="1a30-ae45-5c91-a680" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antitanque" id="a1bb-0a91-7f89-63ef" hidden="false" type="rule" targetId="f5bf-11fb-1247-b986"/>
+        <infoLink name="Un Uso" id="b88b-b56e-0cc5-a3e8" hidden="false" type="rule" targetId="93ee-a371-5cb8-7d8f"/>
+        <infoLink name="Pesada" id="66c9-f0ca-12a7-f460" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Proyectil en Tandem" id="ca72-9cd0-7e39-2d8c" hidden="false" type="rule" targetId="6c75-4e09-025a-fb1e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Javelin" hidden="false" id="d5b6-60e2-1cfc-f9aa">
+      <categoryLinks>
+        <categoryLink targetId="995b-9608-37fa-68e5" id="4079-5788-160b-f5e7" primary="true" name="Sistema de Armas Operadas Desde el Hombro"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Javelin" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="7583-0c33-6f54-aaf9">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">40&quot;/-/5+/8</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-/5+/8</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Antitanque, Un Uso, Pesada, Proyectil en Tandem, Guiado, Desde Arriba, Alcance Minimo 20&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Antitanque" id="657d-e849-0404-8d06" hidden="false" type="rule" targetId="f5bf-11fb-1247-b986"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="2aa8-b49f-5a00-6c72" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Ataque desde arriba" id="ba7d-b1c9-cf00-8bb6" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+        <infoLink name="Guiado" id="3351-a170-a294-5cdf" hidden="false" type="rule" targetId="f408-6665-89e1-7457"/>
+        <infoLink name="Pesada" id="5746-9e0c-c3eb-b939" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Proyectil en Tandem" id="5668-2224-65ff-92d7" hidden="false" type="rule" targetId="6c75-4e09-025a-fb1e"/>
+        <infoLink name="Un Uso" id="b9aa-8ccd-60c6-ccfd" hidden="false" type="rule" targetId="93ee-a371-5cb8-7d8f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Lanzallamas" hidden="false" id="b935-8989-2706-398f">
+      <categoryLinks>
+        <categoryLink targetId="e81f-7a3a-c04a-d90e" id="dd19-a866-5e3d-4299" primary="true" name="Armas Únicas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Lanzallamas" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="3aee-e68e-f93d-4c32">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+2/4+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">10&quot;/+1/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">16&quot;/-2/9+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 3, Tiro a Tiro, Incendiaria, Supresiñon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="7ffc-2279-d1f8-916d" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Incendiarias" id="e9b0-f6e6-82b4-894e" hidden="false" type="rule" targetId="46c4-57c7-81c0-cf5a"/>
+        <infoLink name="Tiro a Tiro" id="e57d-220b-747e-5fc2" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Supresión" id="1565-20fb-56d3-04c0" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Arco" hidden="false" id="587b-b3f0-6a36-cd63">
+      <categoryLinks>
+        <categoryLink targetId="e81f-7a3a-c04a-d90e" id="763b-af1c-18f3-1922" primary="true" name="Armas Únicas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Arco" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="7755-bf0f-f859-c59b">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/7+/0</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">15&quot;/-1/7+/0</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">30&quot;/-2/9+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Tiro a Tiro, Silenciado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tiro a Tiro" id="f5fc-df75-7fb4-a1f2" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Silenciado" id="68d9-8c83-9a9f-9c4e" hidden="false" type="rule" targetId="12c1-e945-da4a-7d93"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ballesta" hidden="false" id="db90-a873-1ccb-fb57">
+      <categoryLinks>
+        <categoryLink targetId="e81f-7a3a-c04a-d90e" id="3cdd-7c32-a0fb-232e" primary="true" name="Armas Únicas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Ballesta" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="8f13-5fc5-a797-369b">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/7+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">18&quot;/0/6+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">36&quot;/-1/7+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Tiro a Tiro, Silenciado, Penetración de Blindaje</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tiro a Tiro" id="05e4-46fd-c971-e783" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Silenciado" id="0439-29b3-5c9c-fe7b" hidden="false" type="rule" targetId="12c1-e945-da4a-7d93"/>
+        <infoLink name="Penetración de Blindaje" id="cb43-8315-a9e6-89ea" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Arma Antidrones" hidden="false" id="e24a-0e33-b59e-e77b">
+      <categoryLinks>
+        <categoryLink targetId="e81f-7a3a-c04a-d90e" id="b5b8-4469-e2cf-d741" primary="true" name="Armas Únicas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Arma Antidrones" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="ce7d-b51e-c229-2fdf">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/+1/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">18&quot;/-1/-/-</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">30&quot;/-2/-/-</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Antidrones, Silenciado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Antidrones" id="7425-5ba7-2c1c-493b" hidden="false" type="rule" targetId="3f55-977e-7b3a-a12d"/>
+        <infoLink name="Silenciado" id="f0a2-d4ef-8178-381a" hidden="false" type="rule" targetId="12c1-e945-da4a-7d93"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="MANPAD" hidden="false" id="555a-c63d-cf60-c90e">
+      <profiles>
+        <profile name="MANPAD" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="a426-f2af-6986-36fa">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">-/-/-/-</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">-/-/-/-</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Armas Antiaéreas, Guiado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas Antiaéreas" id="a7d5-a785-7a9c-6680" hidden="false" type="rule" targetId="fe03-787b-b77e-0fb4"/>
+        <infoLink name="Guiado" id="9708-22e6-ed91-a906" hidden="false" type="rule" targetId="f408-6665-89e1-7457"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Táser (DEC)" hidden="false" id="b0a2-0954-6f85-f565">
+      <categoryLinks>
+        <categoryLink targetId="6588-59dc-7432-a1d2" id="bd4c-1b0c-9250-4451" primary="true" name="Armas no Letales"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Táser (DEC)" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="8ba5-f279-42f4-61f5">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+1/-/0</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">8&quot;/-1/-/0</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">-/-/-/-</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">No Letal, Aturdir 1, Silenciado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Aturdir" id="43e2-bdf7-1802-fec2" hidden="false" type="rule" targetId="ad8c-eca2-6734-5595"/>
+        <infoLink name="Silenciado" id="bd5a-4503-4815-c557" hidden="false" type="rule" targetId="12c1-e945-da4a-7d93"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Balas de Goma" hidden="false" id="c72f-9c21-a47c-0bad">
+      <categoryLinks>
+        <categoryLink targetId="6588-59dc-7432-a1d2" id="5b7b-a1b5-fe28-87b7" primary="true" name="Armas no Letales"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Balas de Goma" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="2ac1-fe22-3a59-db64">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+2/-/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">10&quot;/0/-/0</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">14&quot;/-1/0/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Tiro a Tiro, Aturdir 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Tiro a Tiro" id="8ed8-4cb3-f176-f97c" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Aturdir" id="62f0-ac94-f19f-27f6" hidden="false" type="rule" targetId="ad8c-eca2-6734-5595"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gas Lacrimógeno" hidden="false" id="7d1e-5c83-2293-325b">
+      <categoryLinks>
+        <categoryLink targetId="6588-59dc-7432-a1d2" id="e4b8-b5d3-d300-1b0b" primary="true" name="Armas no Letales"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Gas Lacrimógeno" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="396a-ab7a-ed4d-e880">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/0/6+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">8&quot;/-1/6+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">12&quot;/-2/6+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 6, Aturdir 3, Arrojadizo, Silenciado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="77ef-cc2b-cd12-0b19" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Aturdir" id="7134-0a08-2b35-a9fa" hidden="false" type="rule" targetId="ad8c-eca2-6734-5595"/>
+        <infoLink name="Silenciado" id="841e-93e3-886b-912d" hidden="false" type="rule" targetId="12c1-e945-da4a-7d93"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chaleco Bomba" hidden="false" id="864d-9f08-ab70-dffc">
+      <categoryLinks>
+        <categoryLink targetId="a2bb-13b1-98cd-2af6" id="c11f-1714-3cbb-259b" primary="true" name="IED"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Chaleco Bomba" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="2cab-0afd-0a2e-23da">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/5+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">-/-/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">-/-/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 4, Peligro Cercano 4&quot;, Frag, Un Uso, Supresión</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Chaleco Bomba" typeId="6838-76bd-df50-3dbe" typeName="Equipamiento" hidden="false" id="ff09-00ab-3f4a-257e">
+          <characteristics>
+            <characteristic name="Descripción" typeId="8943-2b21-512c-8bb6">Estos Chalecos pueden ser detonados usando un detonador de IED.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="9ecd-8b34-8f64-3d42" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Peligro Cercano" id="f8c2-1726-78bc-ac51" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+        <infoLink name="Frag" id="8535-9323-cf7c-77d1" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Un Uso" id="78d8-0b82-951a-b995" hidden="false" type="rule" targetId="93ee-a371-5cb8-7d8f"/>
+        <infoLink name="Supresión" id="efb2-7c5e-6b33-8d9c" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4fac-7f6d-d919-dac3" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Artefacto Antiblindaje" hidden="false" id="8540-b740-bef2-94c9">
+      <categoryLinks>
+        <categoryLink targetId="a2bb-13b1-98cd-2af6" id="9323-bf91-de36-3b92" primary="true" name="IED"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Artefacto Antiblindaje" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="a9e7-7291-5310-9071">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/5+/4</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">-/-/5+/4</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">-/-/5+/4</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Peligro Cercano 2&quot;, Frag, Un Uso, Antiblindaje. Supresión</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="9fb7-0172-85ec-9af3" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Peligro Cercano" id="033c-c687-9fae-f2f5" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+        <infoLink name="Antiblindaje" id="af47-fcc4-9497-ca46" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Un Uso" id="4671-7e55-bba9-2abf" hidden="false" type="rule" targetId="93ee-a371-5cb8-7d8f"/>
+        <infoLink name="Supresión" id="5e91-5d69-e45d-7cbb" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Frag" id="3fe5-23f0-df83-3d16" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Artefacto Antipersona" hidden="false" id="d14a-fec5-762a-17fa">
+      <categoryLinks>
+        <categoryLink targetId="a2bb-13b1-98cd-2af6" id="1cb1-16e7-9712-8cd6" primary="true" name="IED"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Artefacto Antipersona" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="4543-32c8-0c2d-430c">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/5+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">-/-/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">-/-/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 6, Peligro Cercano 4&quot;, Frag, Un Uso, Supresión</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="93f0-198a-78b8-710a" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Peligro Cercano" id="cda5-38a4-56ce-0df6" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+        <infoLink name="Frag" id="5ef9-19e7-53a6-754f" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Un Uso" id="f353-acdf-d6ae-4307" hidden="false" type="rule" targetId="93ee-a371-5cb8-7d8f"/>
+        <infoLink name="Supresión" id="7fc3-4d36-5350-6e2e" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Coche Bomba" hidden="false" id="bd05-32bf-34f7-5e2d">
+      <categoryLinks>
+        <categoryLink targetId="a2bb-13b1-98cd-2af6" id="59ae-8802-a7e2-01d7" primary="true" name="IED"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Coche Bomba" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="59bb-ec6e-68be-e78c">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/4+/2</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">-/-/4+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">-/-/4+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 6, Antiblindaje, Peligro Cercano 6&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="cb00-a41a-96d2-2723" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antiblindaje" id="bfd4-a759-c48b-b5be" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Peligro Cercano" id="ba6a-5597-9847-5fe7" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="SPG9 con Proyectil HE" hidden="false" id="f8ba-8dd3-24af-b08d">
+      <categoryLinks>
+        <categoryLink targetId="4dce-1930-f13b-e467" id="d81e-ac3f-90bc-d8d1" primary="true" name="Armas Montadas en Vehículos"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SPG9 con Proyectil HE" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="d507-2903-555d-7818">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">35&quot;/0/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">60&quot;/-1/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 4, Frag, Desplegable, Tiro a Tiro, Distancia Mínima 10&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="2bea-7761-8496-ff05" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Desplegable" id="e01f-a6ce-c2eb-0a4d" hidden="false" type="rule" targetId="bc64-c4a5-c89e-9f95"/>
+        <infoLink name="Frag" id="3a7e-e1a7-0f95-5f6c" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Tiro a Tiro" id="43de-9b74-44f2-96a4" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="SPG9 con Proyectil HEAT" hidden="false" id="5660-9d5d-5e86-a786">
+      <categoryLinks>
+        <categoryLink targetId="4dce-1930-f13b-e467" id="3493-ae59-b775-c224" primary="true" name="Armas Montadas en Vehículos"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="SPG9 con Proyectil HEAT" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="55cf-7984-4c3e-3c70">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">35&quot;/0/7+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">60&quot;/-1/7+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Antiblindaje, Tiro a Tiro, Distancia Mínima 10&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="b6c0-0600-db85-d0d8" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antiblindaje" id="b243-b617-a7e8-f4ec" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Tiro a Tiro" id="d437-6462-d20c-f14c" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="M40 con Proyectil Flechette" hidden="false" id="be05-5d94-85b3-c455">
+      <categoryLinks>
+        <categoryLink targetId="4dce-1930-f13b-e467" id="334d-d0fc-955a-f363" primary="true" name="Armas Montadas en Vehículos"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M40 con Proyectil Flechette" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="685a-0bd5-d86d-40c7">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+2/5+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">12&quot;/+1/6+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">18&quot;/-2/8+/0</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 5, Frag, Tiro a Tiro, Penetración de Blindaje, Desplegable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Frag" id="239e-fe85-42cf-2142" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Desplegable" id="7b20-829c-f3a5-7941" hidden="false" type="rule" targetId="bc64-c4a5-c89e-9f95"/>
+        <infoLink name="Tiro a Tiro" id="debe-ecd7-57fc-d86e" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Penetración de Blindaje" id="c68b-4559-a1ed-be66" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="c903-8f91-81ae-d344" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="M40 con Proyectil HEAT" hidden="false" id="5500-d9ea-dbd8-177b">
+      <categoryLinks>
+        <categoryLink targetId="4dce-1930-f13b-e467" id="cfb3-1a90-174f-3e7d" primary="true" name="Armas Montadas en Vehículos"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="M40 con Proyectil HEAT" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="d7af-92fb-e256-7f32">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">45&quot;/0/7+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-2/7+/3</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Antiblindaje, Tiro a Tiro, Distancia Mínima 10&quot;, Desplegable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Antiblindaje" id="8384-75a2-bad8-7322" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Desplegable" id="6a36-e525-6a96-b902" hidden="false" type="rule" targetId="bc64-c4a5-c89e-9f95"/>
+        <infoLink name="Tiro a Tiro" id="5b35-789f-3688-2401" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="9f3b-4e33-4738-b9b3" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="ZPU 2" hidden="false" id="7f5c-9705-a839-e143">
+      <categoryLinks>
+        <categoryLink targetId="4dce-1930-f13b-e467" id="309a-9aeb-2812-6859" primary="true" name="Armas Montadas en Vehículos"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="ZPU 2" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="ca65-f875-d720-cd58">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/5+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">40&quot;/-1/5+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-2/5+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Fuego Sostenido 2, Supresión, Penetración de Blindaje, Pesada, Antiaérea</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="AoE y Automática / Fuego Sostenido" id="e4b0-0f2f-8682-94e7" hidden="false" type="rule" targetId="e97b-fc16-ffce-2757"/>
+        <infoLink name="Fuego Sostenido" id="74a0-539b-3ecd-c278" hidden="false" type="rule" targetId="d7d2-9d2c-7e35-d902"/>
+        <infoLink name="Penetración de Blindaje" id="2ca6-36d2-65d1-0770" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Pesada" id="9dcd-abbd-6cf9-e233" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Armas Antiaéreas" id="4a23-6329-55cc-84ef" hidden="false" type="rule" targetId="fe03-787b-b77e-0fb4"/>
+        <infoLink name="Supresión" id="3b1e-d258-3758-0364" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="89a4-097f-5329-8ea0" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="ZSU 23" hidden="false" id="34fb-5c32-d85f-cfef">
+      <categoryLinks>
+        <categoryLink targetId="4dce-1930-f13b-e467" id="bf98-573b-65f0-9975" primary="true" name="Armas Montadas en Vehículos"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="ZSU 23" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="c46f-3b9e-69f9-de69">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/3+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">50&quot;/-1/3+/3</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-2/3+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Fuego Sostenido 2, Supresión, Antiblindaje, Pesada, Armas Antiaéreas</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="AoE y Automática / Fuego Sostenido" id="380c-8d7b-765f-7278" hidden="false" type="rule" targetId="e97b-fc16-ffce-2757"/>
+        <infoLink name="Fuego Sostenido" id="2f73-e6f7-a2f1-3ee4" hidden="false" type="rule" targetId="d7d2-9d2c-7e35-d902"/>
+        <infoLink name="Antiblindaje" id="ddaf-eb0b-075e-a6c8" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Pesada" id="6590-3015-0e6e-54e5" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Armas Antiaéreas" id="2c98-dfdc-26aa-b846" hidden="false" type="rule" targetId="fe03-787b-b77e-0fb4"/>
+        <infoLink name="Supresión" id="4e79-0939-a1e2-d862" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="48d4-8d9c-5a2b-766a" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="ZPU 1" hidden="false" id="6df7-abf1-c828-c77e">
+      <categoryLinks>
+        <categoryLink targetId="4dce-1930-f13b-e467" id="7b9c-eeff-d33f-90a5" primary="true" name="Armas Montadas en Vehículos"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="ZPU 1" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="5acb-3faa-d1fe-018a">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/5+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">40&quot;/-1/5+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-2/5+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Automatica, Supresión, Penetración de Blindaje, Pesada, Antiaérea</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="AoE y Automática / Fuego Sostenido" id="0b40-6520-6364-6086" hidden="false" type="rule" targetId="e97b-fc16-ffce-2757"/>
+        <infoLink name="Automática" id="2a94-97ad-699a-de1c" hidden="false" type="rule" targetId="3a4e-7032-b1d3-4019"/>
+        <infoLink name="Penetración de Blindaje" id="9ccf-9287-41af-943a" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Pesada" id="4074-fcb2-dcdd-7c41" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Armas Antiaéreas" id="e9c2-8354-5849-47f2" hidden="false" type="rule" targetId="fe03-787b-b77e-0fb4"/>
+        <infoLink name="Supresión" id="7eff-2cf7-38d7-da7a" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="4d50-c829-5bc7-664f" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="ZPU 4" hidden="false" id="fe73-3e0b-b906-1208">
+      <categoryLinks>
+        <categoryLink targetId="4dce-1930-f13b-e467" id="6b3a-6d0a-5762-63fc" primary="true" name="Armas Montadas en Vehículos"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="ZPU 4" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="8391-03d0-f35f-bccf">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/5+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">40&quot;/-1/5+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-2/5+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 3, Fuego Sostenido 4, Supresión, Penetración de Blindaje, Pesada, Antiaérea</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="AoE y Automática / Fuego Sostenido" id="8cef-846b-bb0e-f811" hidden="false" type="rule" targetId="e97b-fc16-ffce-2757"/>
+        <infoLink name="Fuego Sostenido" id="8273-2bd4-dbc0-1b67" hidden="false" type="rule" targetId="d7d2-9d2c-7e35-d902"/>
+        <infoLink name="Penetración de Blindaje" id="2183-b100-ff4f-a564" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Pesada" id="708c-d653-56d6-06d9" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Armas Antiaéreas" id="5611-6ab9-f0f0-09f4" hidden="false" type="rule" targetId="fe03-787b-b77e-0fb4"/>
+        <infoLink name="Supresión" id="497c-31c7-6435-f006" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="824a-0aca-b9db-a92b" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Vaina de Cohetes" hidden="false" id="991e-20c7-1b74-f41b">
+      <categoryLinks>
+        <categoryLink targetId="4dce-1930-f13b-e467" id="cd06-e9a1-99e9-a02c" primary="true" name="Armas Montadas en Vehículos"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Vaina de Cohetes" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="504a-ec06-1e69-a2fa">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/-/-</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">30&quot;/-2/6+/4</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-4/6+/4</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 10, Antiblindaje, Tiro a Tiro, Frag, Peligro Cercano 2”, Impreciso 4”, Supresión, Distancia Mínima 18”</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="458d-b4a3-b689-ea8a" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antiblindaje" id="077e-3fb6-90b6-8878" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Tiro a Tiro" id="ebef-f13d-eac0-486f" hidden="false" type="rule" targetId="5c67-15a4-91ef-1f3d"/>
+        <infoLink name="Frag" id="62d5-1d50-d1f9-d42f" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Peligro Cercano" id="5812-bb51-c0a2-78f3" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+        <infoLink name="Supresión" id="efc4-158f-cc74-9c6e" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Impreciso" id="1fc1-babb-5be5-0a5b" hidden="false" type="rule" targetId="0d65-2e47-e87e-d550"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cañon 120/125mm Proyectil Cinético" hidden="false" id="8c9a-9b24-ff1e-74ad">
+      <categoryLinks>
+        <categoryLink targetId="44c3-c069-187c-a096" id="989c-9e56-d1a3-72c2" primary="true" name="Armas de Tanques"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cañon 120/125mm Proyectil Cinético" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="fca0-3a11-9384-3378">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-4/4+/4</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">70&quot;/+1/2+/10</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/0/2+/10</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">Proyectil Cinético, Antitanque</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Antitanque" id="2cc1-ea30-6e52-3c05" hidden="false" type="rule" targetId="f5bf-11fb-1247-b986"/>
+        <infoLink name="Proyectil Cinético" id="c7df-eccc-eb57-a779" hidden="false" type="rule" targetId="bc1a-3896-6836-9e8d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cañon 120/125mm Proyectil HEAT" hidden="false" id="bbd4-d9cb-54ee-5b72">
+      <categoryLinks>
+        <categoryLink targetId="44c3-c069-187c-a096" id="f8e9-4334-1cbd-42a4" primary="true" name="Armas de Tanques"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cañon 120/125mm Proyectil HEAT" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="ebe6-fa15-2b6e-a4ef">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-4/4+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">70&quot;/-1/2+/4</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-2/2+/4</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 4, Antitanque, Proyectil en Tandem</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Antitanque" id="dcfa-32e7-72cb-995f" hidden="false" type="rule" targetId="f5bf-11fb-1247-b986"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="118c-a19f-374e-cce0" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Proyectil en Tandem" id="449f-aa52-0db3-abf6" hidden="false" type="rule" targetId="6c75-4e09-025a-fb1e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cañón Ligero" hidden="false" id="943c-9ca6-9d23-d306">
+      <categoryLinks>
+        <categoryLink targetId="9de3-7e46-7c56-8140" id="18e3-926d-25e6-fcdb" primary="true" name="Cañones Automáticos"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cañón Ligero" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="22e7-4e57-76ec-f815">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/4+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">50&quot;/0/2+/3</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-1/4+/3</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Supresión, Antiblindaje, Pesada</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="83d9-b0d3-e2b9-60f9" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Supresión" id="6fc5-6ede-c2c9-b575" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Antiblindaje" id="43ab-2ef4-6c61-e2ad" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Pesada" id="a142-6ca5-0868-6123" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cañón Pesado" hidden="false" id="81a7-1baa-e238-a876">
+      <categoryLinks>
+        <categoryLink targetId="9de3-7e46-7c56-8140" id="63fc-c2ed-92b3-a76d" primary="true" name="Cañones Automáticos"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cañón Pesado" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="2009-ce6a-9eeb-4671">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/4+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">70&quot;/0/2+/4</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-1/2+/4</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Supresión, Antiblindaje, Frag, Pesada</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="917a-ac40-2a54-0c21" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Frag" id="4835-94d3-847c-5f0d" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Antiblindaje" id="9c79-db41-0aa6-b4f8" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Pesada" id="cae0-0c2a-5d30-7622" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Supresión" id="0d29-5b7b-e5eb-f3ac" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cañón Medio" hidden="false" id="4d26-83d7-0852-0fe2">
+      <categoryLinks>
+        <categoryLink targetId="9de3-7e46-7c56-8140" id="a0f6-ca3c-44a8-ca91" primary="true" name="Cañones Automáticos"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cañón Medio" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="e22a-5df6-718f-5b8c">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/4+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">60&quot;/0/2+/4</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-1/3+/3</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Supresión, Antiblindaje, Frag, Pesada</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="d726-16f6-bbab-5e6e" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Frag" id="021f-a327-1f0e-02a6" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Antiblindaje" id="95f2-b574-8f9f-7934" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Pesada" id="b0f4-26c6-5ad4-c547" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Supresión" id="ebf6-8073-ce6b-d38a" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cañón Vulcan" hidden="false" id="fc59-4f89-6dce-6e0f">
+      <categoryLinks>
+        <categoryLink targetId="d557-055d-441d-b764" id="f46e-dcd1-7e2f-0eba" primary="true" name="Cañones de Cadena"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cañón Vulcan" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="1f8d-1bbe-f022-7556">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/4+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">50&quot;/-1/2+/4</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-2/4+/3</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Fuego Sostenido 4, Antiblindaje, Pesada</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="AoE y Automática / Fuego Sostenido" id="ccbc-cd8e-4d1f-ea91" hidden="false" type="rule" targetId="e97b-fc16-ffce-2757"/>
+        <infoLink name="Fuego Sostenido" id="4854-52b5-fd6c-142b" hidden="false" type="rule" targetId="d7d2-9d2c-7e35-d902"/>
+        <infoLink name="Antiblindaje" id="c2b4-c947-d6bc-b3bc" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Pesada" id="c056-a359-f931-ec71" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="b083-824a-1442-7e9b" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cañón de Cadena Pesado" hidden="false" id="a3b7-124e-e90b-f8fb">
+      <categoryLinks>
+        <categoryLink targetId="d557-055d-441d-b764" id="c855-f48c-e4a5-2823" primary="true" name="Cañones de Cadena"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cañón de Cadena Pesado" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="71df-57d7-7e82-1c56">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/4+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">70&quot;/0/2+/4</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-1/2+/4</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Automática, Supresión, Antiblindaje, Frag, Pesada</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="d30b-4a3c-8948-24a6" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="AoE y Automática / Fuego Sostenido" id="3eb8-d9ff-8358-4a94" hidden="false" type="rule" targetId="e97b-fc16-ffce-2757"/>
+        <infoLink name="Automática" id="b339-f1d4-a099-6a33" hidden="false" type="rule" targetId="3a4e-7032-b1d3-4019"/>
+        <infoLink name="Supresión" id="f919-e031-cf5c-8168" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Antiblindaje" id="a7e9-5211-251d-81d7" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Frag" id="d258-0eca-fd2e-66cb" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Pesada" id="0937-f039-7ba4-02d0" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Cañón de Cadena Medio" hidden="false" id="a9fa-2060-8146-ffcc">
+      <categoryLinks>
+        <categoryLink targetId="d557-055d-441d-b764" id="ffde-21bd-fb7b-efaa" primary="true" name="Cañones de Cadena"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cañón de Cadena Medio" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="fd9f-fba4-0f92-8b20">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/4+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">60&quot;/0/2+/4</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-1/3+/3</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Automática, Supresión, Antiblindaje, Frag, Pesada</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="02c6-9fcb-ff79-84fa" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="AoE y Automática / Fuego Sostenido" id="e6b7-3016-c0bf-08fb" hidden="false" type="rule" targetId="e97b-fc16-ffce-2757"/>
+        <infoLink name="Automática" id="7915-1790-21c2-4764" hidden="false" type="rule" targetId="3a4e-7032-b1d3-4019"/>
+        <infoLink name="Supresión" id="8d52-5e72-64e7-945d" hidden="false" type="rule" targetId="c44e-e941-80f1-7dad"/>
+        <infoLink name="Antiblindaje" id="ace2-8e14-e2cc-e99c" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Frag" id="f9a0-87d4-5625-bd53" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Pesada" id="7b05-6a23-17f5-6add" hidden="false" type="rule" targetId="4665-552e-cbbc-c02f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dron Antipersonas" hidden="false" id="e4b9-04d8-c70c-fc90">
+      <categoryLinks>
+        <categoryLink targetId="ba05-2eb3-fec6-2a81" id="c7f9-0d58-fddc-0f64" primary="true" name="Drones"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Dron Antipersonas" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="9813-e7c2-56af-ac74">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/5+/1</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">-/-/5+/1</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">-/-/5+/1</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 5, Un Uso, Frag, Guiado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="44a5-d45b-5b9c-74a5" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Un Uso" id="3b0a-a236-af18-bf69" hidden="false" type="rule" targetId="93ee-a371-5cb8-7d8f"/>
+        <infoLink name="Frag" id="3ad5-7abb-113c-88ea" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Guiado" id="39cb-bc33-2fc5-263f" hidden="false" type="rule" targetId="f408-6665-89e1-7457"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dron Antiblindaje" hidden="false" id="9a2c-15b7-1ae5-b3b0">
+      <categoryLinks>
+        <categoryLink targetId="ba05-2eb3-fec6-2a81" id="4d48-cfd5-10f5-ead1" primary="true" name="Drones"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Dron Antiblindaje" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="ee59-9686-c605-d1ba">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">-/-/8+/3</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">-/-/8+/3</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">-/-/8+/3</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Un Uso, Antiblindaje, Guiado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="fa7a-a51d-3e76-aaed" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Un Uso" id="2824-5dc3-9edf-9447" hidden="false" type="rule" targetId="93ee-a371-5cb8-7d8f"/>
+        <infoLink name="Antiblindaje" id="8790-6fc6-eb30-f30e" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Guiado" id="cfa9-e719-dc32-05ee" hidden="false" type="rule" targetId="f408-6665-89e1-7457"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="GAU-8" hidden="false" id="3144-1712-5799-345d">
+      <categoryLinks>
+        <categoryLink targetId="0696-f313-a43f-0418" id="02f6-a931-2e23-b849" primary="true" name="Escaladas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="GAU-8" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="08fa-b5e6-b037-acb7">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/4+/8</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">30&quot;/-1/4+/8</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-2/4+/8</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 10, Antiblindaje, Frag, Ataque desde Arriba, Peligro Cercano 3&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="e1e6-9abd-0f7b-2a16" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antiblindaje" id="0e6a-7188-651f-cd65" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Frag" id="1fc2-d674-9035-2dfe" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Ataque desde arriba" id="a85a-467c-2832-46c8" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+        <infoLink name="Peligro Cercano" id="425c-e951-daf7-ede4" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Misil Aire-Tierra Antipersona" hidden="false" id="15db-abae-fa8c-96ca">
+      <categoryLinks>
+        <categoryLink targetId="0696-f313-a43f-0418" id="b3dd-12f4-b8e1-0e0f" primary="true" name="Escaladas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Misil Aire-Tierra Antipersona" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="f8b6-c88e-2e3d-8b7c">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+1/4+/2</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">60&quot;/+1/4+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/+1/4+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 8, Penetración de Blindaje, Frag, Ataque desde Arriba, Guiado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="3ae6-cd5d-3743-98be" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Penetración de Blindaje" id="f486-da0a-0db8-9230" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Un Uso" id="f360-986e-4b2f-bdd7" hidden="false" type="rule" targetId="93ee-a371-5cb8-7d8f"/>
+        <infoLink name="Frag" id="4cbd-1386-a69b-459d" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Guiado" id="d0a6-d7e8-8a51-6ce0" hidden="false" type="rule" targetId="f408-6665-89e1-7457"/>
+        <infoLink name="Ataque desde arriba" id="7030-278a-9f52-6c61" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Misil Aire-Tierra Antiblindaje" hidden="false" id="ae69-658c-0628-9402">
+      <categoryLinks>
+        <categoryLink targetId="0696-f313-a43f-0418" id="ba08-7dd6-a655-a515" primary="true" name="Escaladas"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Misil Aire-Tierra Antiblindaje" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="8d9b-bfb9-7392-2030">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+1/6+/12</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">60&quot;/+1/6+/12</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/+1/6+/12</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Antitanque, Un Uso, Proyectil en Tándem, Guiado, Ataque desde Arriba</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="016f-2734-169b-13ac" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antitanque" id="ef95-ea83-4261-f9cd" hidden="false" type="rule" targetId="f5bf-11fb-1247-b986"/>
+        <infoLink name="Un Uso" id="cc00-49bf-dfc5-a827" hidden="false" type="rule" targetId="93ee-a371-5cb8-7d8f"/>
+        <infoLink name="Proyectil en Tandem" id="0446-e206-25a1-9527" hidden="false" type="rule" targetId="6c75-4e09-025a-fb1e"/>
+        <infoLink name="Guiado" id="2ff0-4464-1ed9-d4cb" hidden="false" type="rule" targetId="f408-6665-89e1-7457"/>
+        <infoLink name="Ataque desde arriba" id="3ef8-c66f-470b-a99c" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bombardeo de Mortero Pesado" hidden="false" id="a34b-2c4b-8fa0-b6b0">
+      <profiles>
+        <profile name="Bombardeo de Mortero Pesado" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="e4cb-ab07-2b9e-8e4a">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-3/4+/4</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">24&quot;/-3/4+/4</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-3/4+/4</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 8, Penetración de Blindaje, Frag, Ataque desde Arriba,  Peligro Cercano 4&quot;, Impreciso 4&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="0696-f313-a43f-0418" id="f9d2-0110-df2e-cbbb" primary="true" name="Escaladas"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="7762-569f-e742-3cf9" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Penetración de Blindaje" id="d896-62bb-4496-3e53" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Ataque desde arriba" id="60a8-68a5-21f2-f704" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+        <infoLink name="Impreciso" id="6455-fbf9-0334-3993" hidden="false" type="rule" targetId="0d65-2e47-e87e-d550"/>
+        <infoLink name="Frag" id="71a1-3431-bf22-c6aa" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Peligro Cercano" id="5a36-eba5-5432-f6f1" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Proyectil Cinético" hidden="false" id="2201-c58e-0b13-c023">
+      <profiles>
+        <profile name="Proyectil Cinético" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="0c90-7938-0c56-d3d0">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/+1/2+/3</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">60&quot;/+1/2+/3</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/+1/2+/3</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 2, Penetración de Blindaje, Ataque desde Arriba, Tirador, Guiado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="0696-f313-a43f-0418" id="ce6b-6096-1399-167b" primary="true" name="Escaladas"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="4a77-b691-7ae8-c51f" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Penetración de Blindaje" id="6aed-cbb9-1b68-0dbc" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Ataque desde arriba" id="fb74-6a13-5731-5fc0" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+        <infoLink name="Tirador" id="98b6-0f2a-ad37-21d5" hidden="false" type="rule" targetId="9019-c09d-d929-cec4"/>
+        <infoLink name="Guiado" id="3f65-19a8-a727-7c3c" hidden="false" type="rule" targetId="f408-6665-89e1-7457"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bombardeo de Mortero Ligero" hidden="false" id="9989-65b7-4f40-5bbc">
+      <profiles>
+        <profile name="Bombardeo de Mortero Ligero" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="2bfb-4e59-3bd9-cc1f">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-3/6+/2</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">24&quot;/-3/6+/2</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-3/6+/2</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 6, Penetración de Blindaje, Frag, Ataque desde Arriba,  Peligro Cercano 3&quot;, Impreciso 4&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="0696-f313-a43f-0418" id="7939-41cc-c27c-06a5" primary="true" name="Escaladas"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="4f34-0480-079a-f02f" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Penetración de Blindaje" id="987d-d67a-26c1-74f6" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Ataque desde arriba" id="e237-6ab5-5a17-fd6d" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+        <infoLink name="Impreciso" id="92d2-a071-05d3-471e" hidden="false" type="rule" targetId="0d65-2e47-e87e-d550"/>
+        <infoLink name="Frag" id="1167-ce53-00cc-a169" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Peligro Cercano" id="a06b-a370-39e9-e579" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ataque con Arma Química" hidden="false" id="e308-f7d5-d8cf-90c8">
+      <profiles>
+        <profile name="Ataque con Arma Química" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="2720-b34d-4c12-3893">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-4/4+/8</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">30&quot;/-4/4+/8</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-4/4+/8</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 20, NRBQ, Explosión Aérea, Ataque desde Arriba, Peligro Cercano 10&quot;, Impreciso 10&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="0696-f313-a43f-0418" id="0833-1965-ea48-74f7" primary="true" name="Escaladas"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="bd63-bb0a-1d29-2e79" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="NRBQ" id="074d-693f-f5c5-c328" hidden="false" type="rule" targetId="98ac-70a2-4c2d-5258"/>
+        <infoLink name="Ataque desde arriba" id="24dd-756d-3e12-3c7e" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+        <infoLink name="Impreciso" id="8679-e495-96f6-4080" hidden="false" type="rule" targetId="0d65-2e47-e87e-d550"/>
+        <infoLink name="Explosión Aérea" id="a61f-2e0f-1959-de40" hidden="false" type="rule" targetId="7adb-b9eb-e67e-87d8"/>
+        <infoLink name="Peligro Cercano" id="3325-1ebf-2f95-6b05" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ataque de Artillería" hidden="false" id="a530-ee93-7e18-93b6">
+      <profiles>
+        <profile name="Ataque de Artillería" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="605c-db05-e3fa-dcba">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-3/2+/10</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">40&quot;/-3/2+/10</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-3/2+/10</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 12, Antiblindaje, Frag, Ataque desde Arriba,  Peligro Cercano 6&quot;, Impreciso 6&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="0696-f313-a43f-0418" id="cb48-831e-8adb-bca1" primary="true" name="Escaladas"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="480a-342a-4357-6a0e" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antiblindaje" id="a5c5-935b-db7a-4ec1" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Ataque desde arriba" id="c168-4a19-9235-55cb" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+        <infoLink name="Impreciso" id="78a0-9051-0240-5263" hidden="false" type="rule" targetId="0d65-2e47-e87e-d550"/>
+        <infoLink name="Frag" id="5224-a3f2-3b79-a53e" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Peligro Cercano" id="79ae-12e4-bc3e-4d02" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ataque de Artillería Guiada" hidden="false" id="f9ae-8599-6c93-e2bb">
+      <profiles>
+        <profile name="Ataque de Artillería Guiada" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="eb96-3db0-7d98-a437">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/2+/10</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">60&quot;/+1/2+/10</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-1/2+/10</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 12, Antiblindaje, Frag, Ataque desde Arriba,  Peligro Cercano 6&quot;, Impreciso 2&quot;, Guiado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="0696-f313-a43f-0418" id="ba07-0d9e-94de-f519" primary="true" name="Escaladas"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="3c30-fce1-170e-af4f" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antiblindaje" id="a950-8963-7af0-0470" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Ataque desde arriba" id="d945-8e3c-ec3d-191b" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+        <infoLink name="Impreciso" id="ba91-6562-e9a4-4bd3" hidden="false" type="rule" targetId="0d65-2e47-e87e-d550"/>
+        <infoLink name="Frag" id="57aa-6fd6-59be-1152" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Guiado" id="6e4e-0f9e-759f-4ccd" hidden="false" type="rule" targetId="f408-6665-89e1-7457"/>
+        <infoLink name="Peligro Cercano" id="06c6-dffd-a6f3-8ca9" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ataque de Artillería de Cohetes" hidden="false" id="948d-82a7-064e-199c">
+      <profiles>
+        <profile name="Ataque de Artillería de Cohetes" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="72e1-d532-2da6-c229">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-4/2+/15</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">60&quot;/-2/2+/15</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-4/2+/15</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 15, Antiblindaje, Frag, Ataque desde Arriba,  Peligro Cercano 8&quot;, Impreciso 4&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="0696-f313-a43f-0418" id="f2eb-af15-7c28-1c81" primary="true" name="Escaladas"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="2b62-8cb0-6d17-d2da" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antiblindaje" id="38eb-752c-9fab-9691" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Ataque desde arriba" id="9613-6eca-8ee4-00e6" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+        <infoLink name="Impreciso" id="3555-c1ba-b16d-c5c4" hidden="false" type="rule" targetId="0d65-2e47-e87e-d550"/>
+        <infoLink name="Frag" id="c942-61ff-b2bf-c526" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Peligro Cercano" id="33e4-8eb8-efeb-6237" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bomba sin Guía" hidden="false" id="b11d-653a-80af-8355">
+      <profiles>
+        <profile name="Bomba sin Guía" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="b6df-c973-d3de-2d4b">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-4/4+/8</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">30&quot;/-4/4+/8</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-4/4+/8</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 12, Antiblindaje, Frag, Ataque desde Arriba,  Peligro Cercano 8&quot;, Impreciso 10&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="0696-f313-a43f-0418" id="583a-5391-c828-cc45" primary="true" name="Escaladas"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="4459-2007-19c4-be6f" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antiblindaje" id="6f6b-7375-cf65-c104" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Ataque desde arriba" id="7140-fe7d-d71e-75f9" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+        <infoLink name="Impreciso" id="f001-b9f3-c95b-337f" hidden="false" type="rule" targetId="0d65-2e47-e87e-d550"/>
+        <infoLink name="Frag" id="5080-0d87-b073-eb16" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Peligro Cercano" id="d251-2622-894b-3ff5" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Bomba Guiada" hidden="false" id="8358-2676-368a-4448">
+      <profiles>
+        <profile name="Bomba Guiada" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="11a7-8cb9-80fd-f84b">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-2/2+/15</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">40&quot;/-1/2+/15</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-1/2+/15</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 12, Antitanque, Frag, Ataque desde Arriba,  Peligro Cercano 6&quot;, Guiado</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="0696-f313-a43f-0418" id="6603-988f-e9ab-47ae" primary="true" name="Escaladas"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="0f74-106b-5ec8-ca19" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Antiblindaje" id="082d-ef9e-6e91-e2e0" hidden="false" type="rule" targetId="2dd4-353e-1bae-ab50"/>
+        <infoLink name="Ataque desde arriba" id="8786-375c-d1db-efd9" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+        <infoLink name="Guiado" id="6c5f-25fd-708a-52fc" hidden="false" type="rule" targetId="f408-6665-89e1-7457"/>
+        <infoLink name="Frag" id="8391-a28a-58db-232e" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+        <infoLink name="Peligro Cercano" id="4aa3-a416-10c1-7269" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Municiones de Racimo" hidden="false" id="9c78-b11b-e7ce-b942">
+      <profiles>
+        <profile name="Municiones de Racimo" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="02b8-428c-0614-47c4">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-4/6+/8</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">24&quot;/-2/6+/8</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-3/6+/8</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 18, Penetración de Blindaje, Frag, Explosión Aérea, Ataque desde Arriba, Peligro Cercano 10&quot;, Impreciso 10&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="0696-f313-a43f-0418" id="cac8-3a4a-6531-1d7f" primary="true" name="Escaladas"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="7b4f-fc28-be84-4853" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Penetración de Blindaje" id="2724-08b5-adbf-5ee9" hidden="false" type="rule" targetId="d4ed-a106-4ec9-1c42"/>
+        <infoLink name="Ataque desde arriba" id="0e2d-541b-3543-6e0e" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+        <infoLink name="Impreciso" id="2e73-0ece-3ebf-a7ff" hidden="false" type="rule" targetId="0d65-2e47-e87e-d550"/>
+        <infoLink name="Explosión Aérea" id="5b14-d0ff-b6a6-34b7" hidden="false" type="rule" targetId="7adb-b9eb-e67e-87d8"/>
+        <infoLink name="Peligro Cercano" id="7f45-bc43-2840-fb31" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+        <infoLink name="Frag" id="da45-0703-56f7-b748" hidden="false" type="rule" targetId="079f-2c33-b8dc-5b6a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Municiones Incendiarias" hidden="false" id="0b0e-38a2-180b-7692">
+      <profiles>
+        <profile name="Municiones Incendiarias" typeId="e585-baa0-23fd-d836" typeName="Arma" hidden="false" id="3baf-c418-e476-79be">
+          <characteristics>
+            <characteristic name="CQB R/M/L/AP" typeId="7aab-c3cd-87ac-eae2">6&quot;/-4/6+/8</characteristic>
+            <characteristic name="Combate R/M/L/AP" typeId="646a-c48f-d06b-7249">24&quot;/-2/6+/8</characteristic>
+            <characteristic name="Extremo R/M/L/AP" typeId="e478-29d2-0e1d-f1c5">∞/-3/6+/8</characteristic>
+            <characteristic name="Especial" typeId="3ac9-347e-9443-e1c6">AoE 20, Incendiario, Explosión Aérea, Ataque desde Arriba, Peligro Cercano 10&quot;, Impreciso 10&quot;</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink targetId="0696-f313-a43f-0418" id="609f-39f5-b109-1d3a" primary="true" name="Escaladas"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Armas con Área de Efecto (AoE)" id="472b-4729-f14c-2b67" hidden="false" type="rule" targetId="b372-02b2-42cd-07db"/>
+        <infoLink name="Incendiarias" id="2740-48f4-8131-8cfb" hidden="false" type="rule" targetId="46c4-57c7-81c0-cf5a"/>
+        <infoLink name="Ataque desde arriba" id="fb61-f720-3e6a-fed0" hidden="false" type="rule" targetId="b079-ec41-f5e0-34eb"/>
+        <infoLink name="Impreciso" id="530f-4ecb-515e-ac63" hidden="false" type="rule" targetId="0d65-2e47-e87e-d550"/>
+        <infoLink name="Explosión Aérea" id="0ff9-7d73-6d14-4382" hidden="false" type="rule" targetId="7adb-b9eb-e67e-87d8"/>
+        <infoLink name="Peligro Cercano" id="6fe3-6d69-9cc1-93f5" hidden="false" type="rule" targetId="6390-6ce3-382a-792f"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Armas de Mano" id="688b-f5ff-ffa1-ebd8" hidden="false"/>
+    <categoryEntry name="Subfusiles" id="87d6-222b-9f1d-12f0" hidden="false"/>
+    <categoryEntry name="Fusiles" id="5e66-6eee-af4e-4622" hidden="false"/>
+    <categoryEntry name="Fusiles de Tirador" id="4d70-52fb-7cbc-230f" hidden="false"/>
+    <categoryEntry name="Ametralladoras" id="290e-4c28-a628-d1cf" hidden="false"/>
+    <categoryEntry name="Miniguns" id="b9dd-08c8-2e48-6b7a" hidden="false"/>
+    <categoryEntry name="Escopetas" id="0442-1e7a-698b-e73f" hidden="false"/>
+    <categoryEntry name="Armas Arrojadizas" id="0f35-d25d-c28b-8a0a" hidden="false"/>
+    <categoryEntry name="Lanzagranadas" id="f5ca-4a3c-1d7b-a920" hidden="false"/>
+    <categoryEntry name="Munición Merodeadora" id="2e72-2ca9-c7b2-e1aa" hidden="false"/>
+    <categoryEntry name="Sistema de Armas Operadas Desde el Hombro" id="995b-9608-37fa-68e5" hidden="false"/>
+    <categoryEntry name="Armas Únicas" id="e81f-7a3a-c04a-d90e" hidden="false"/>
+    <categoryEntry name="Armas no Letales" id="6588-59dc-7432-a1d2" hidden="false"/>
+    <categoryEntry name="IED" id="a2bb-13b1-98cd-2af6" hidden="false"/>
+    <categoryEntry name="Armas Montadas en Vehículos" id="4dce-1930-f13b-e467" hidden="false"/>
+    <categoryEntry name="Armas de Tanques" id="44c3-c069-187c-a096" hidden="false"/>
+    <categoryEntry name="Cañones Automáticos" id="9de3-7e46-7c56-8140" hidden="false"/>
+    <categoryEntry name="Cañones de Cadena" id="d557-055d-441d-b764" hidden="false"/>
+    <categoryEntry name="Drones" id="ba05-2eb3-fec6-2a81" hidden="false"/>
+    <categoryEntry name="Escaladas" id="0696-f313-a43f-0418" hidden="false"/>
+  </categoryEntries>
+</catalogue>
